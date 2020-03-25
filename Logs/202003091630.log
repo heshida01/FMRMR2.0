@@ -1,0 +1,37 @@
+[2020-03-09 16:30:35,803]: ---mrmd 2.0 start----
+[2020-03-09 16:31:47,352]: ANOVA start...
+[2020-03-09 16:31:47,390]: ANOVA end.
+[2020-03-09 16:31:47,390]: mic start...
+[2020-03-09 16:32:01,500]: mic end.
+[2020-03-09 16:32:01,500]: mrmd start...
+[2020-03-09 16:32:01,578]: mrmd end.
+[2020-03-09 16:32:01,579]: mRMR start...
+[2020-03-09 16:32:01,679]: mRMR end.
+[2020-03-09 16:32:01,679]: lasso start...
+[2020-03-09 16:32:01,750]: lasso end.
+[2020-03-09 16:32:01,750]: chi2 start...
+[2020-03-09 16:32:01,796]: chi2 end.
+[2020-03-09 16:32:01,796]: ref start...
+[2020-03-09 16:32:02,141]: ref end.
+[2020-03-09 16:32:02,269]: Start dimension reduction ...
+[2020-03-09 16:32:12,757]: length=1 f1=0.6405 accuarcy=0.6415 precision=0.6396 recall=0.6415 auc=0.5251 
+[2020-03-09 16:32:23,477]: length=12 f1=0.7503 accuarcy=0.7793 precision=0.7580 recall=0.7793 auc=0.6252 
+[2020-03-09 16:32:23,478]: ----------
+[2020-03-09 16:32:23,478]: the max f1 = 0.7503
+[2020-03-09 16:32:23,480]: ['fea9' 'fea7' 'fea0' 'fea8' 'fea6' 'fea3' 'fea11' 'fea1' 'fea5' 'fea2'
+ 'fea4' 'fea10'],length = 12
+[2020-03-09 16:32:23,480]: -----------
+[2020-03-09 16:32:34,605]: ***confusion matrix***
+[2020-03-09 16:32:34,606]:                pos_class      neg_class      
+[2020-03-09 16:32:34,606]: pos_class      TP:215            FN:476            
+[2020-03-09 16:32:34,606]: neg_class      FP:123            TN:1900           
+[2020-03-09 16:32:34,608]: f1 =0.7503 
+[2020-03-09 16:32:34,608]: accuarcy = 0.7793 
+[2020-03-09 16:32:34,610]: precision =0.7580 
+[2020-03-09 16:32:34,611]: recall =0.7793
+[2020-03-09 16:32:34,613]: auc = 0.6252
+[2020-03-09 16:32:34,695]: -----------
+[2020-03-09 16:32:34,695]: metrics have been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\positive_negative.metrics.csv.
+[2020-03-09 16:33:42,854]: Scatter charts visualized by t-SNE dataset has been saved in the .\Results\3ad71bbe-61e0-11ea-b2bf-e4b318db5e79.csv.png.
+[2020-03-09 16:33:42,855]: Reduced dimensional dataset has been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\positive_negative.result.csv.
+[2020-03-09 16:33:42,855]: ---mrmd 2.0 end---

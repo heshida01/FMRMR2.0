@@ -1,0 +1,37 @@
+[2020-03-24 16:55:09,554]: ---mrmd 2.0 start----
+[2020-03-24 16:56:17,334]: ANOVA start...
+[2020-03-24 16:56:17,464]: ANOVA end.
+[2020-03-24 16:56:17,464]: mic start...
+[2020-03-24 16:56:26,258]: mic end.
+[2020-03-24 16:56:26,258]: mrmd start...
+[2020-03-24 16:56:26,384]: mrmd end.
+[2020-03-24 16:56:26,385]: mRMR start...
+[2020-03-24 16:56:26,694]: mRMR end.
+[2020-03-24 16:56:26,694]: lasso start...
+[2020-03-24 16:56:27,155]: lasso end.
+[2020-03-24 16:56:27,155]: chi2 start...
+[2020-03-24 16:56:27,444]: chi2 end.
+[2020-03-24 16:56:27,444]: ref start...
+[2020-03-24 16:56:27,804]: ref end.
+[2020-03-24 16:56:28,013]: Start dimension reduction ...
+[2020-03-24 16:56:34,836]: length=1 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-24 16:56:40,708]: length=6 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-24 16:56:47,895]: length=11 f1=0.6437 accuarcy=0.6769 precision=0.6240 recall=0.6769 auc=0.5036 
+[2020-03-24 16:56:55,255]: length=16 f1=0.6536 accuarcy=0.6802 precision=0.6375 recall=0.6802 auc=0.5182 
+[2020-03-24 16:57:04,976]: length=20 f1=0.6617 accuarcy=0.6916 precision=0.6457 recall=0.6916 auc=0.5259 
+[2020-03-24 16:57:04,977]: ----------
+[2020-03-24 16:57:04,978]: the max f1 = 0.6617
+[2020-03-24 16:57:04,978]: ['H' 'F' 'P' 'V' 'L' 'M' 'Y' 'K' 'N' 'Q' 'A' 'W' 'I' 'D' 'C' 'E' 'T' 'R'
+ 'G' 'S'],length = 20
+[2020-03-24 16:57:04,978]: -----------
+[2020-03-24 16:57:13,283]: f1 =0.6617 
+[2020-03-24 16:57:13,283]: accuarcy = 0.6916 
+[2020-03-24 16:57:13,283]: precision =0.6457 
+[2020-03-24 16:57:13,283]: recall =0.6916
+[2020-03-24 16:57:13,293]: auc = 0.5259
+[2020-03-24 16:57:13,429]: -----------
+[2020-03-24 16:57:13,429]: The output by the terminal's log has been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Logs\202003241655.log.
+[2020-03-24 16:57:13,485]: metrics have been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\1.positive.txt.0.negative.txt.metrics.csv.
+[2020-03-24 16:58:32,444]: Scatter charts visualized by t-SNE dataset has been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\1da23008-6dad-11ea-b21b-c85b761ee439.csv.png.
+[2020-03-24 16:58:32,444]: Reduced dimensional dataset has been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\1.positive.txt.0.negative.txt.result.csv.
+[2020-03-24 16:58:32,444]: ---mrmd 2.0 end---

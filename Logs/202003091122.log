@@ -1,0 +1,79 @@
+[2020-03-09 11:22:00,294]: ---mrmd 2.0 start----
+[2020-03-09 11:23:28,954]: ANOVA start...
+[2020-03-09 11:23:30,829]: ANOVA end.
+[2020-03-09 11:23:30,829]: mic start...
+[2020-03-09 11:23:51,509]: mic end.
+[2020-03-09 11:23:51,510]: mrmd start...
+[2020-03-09 11:23:58,409]: mrmd end.
+[2020-03-09 11:23:58,410]: mRMR start...
+[2020-03-09 11:31:45,940]: mRMR end.
+[2020-03-09 11:31:45,940]: lasso start...
+[2020-03-09 11:31:47,369]: lasso end.
+[2020-03-09 11:31:47,369]: chi2 start...
+[2020-03-09 11:31:48,659]: chi2 end.
+[2020-03-09 11:31:48,659]: ref start...
+[2020-03-09 11:44:01,065]: ref end.
+[2020-03-09 11:44:13,132]: Start dimension reduction ...
+[2020-03-09 11:44:22,079]: length=1 f1=0.6727 accuarcy=0.7546 precision=0.7331 recall=0.7546 auc=0.5305 
+[2020-03-09 11:44:31,509]: length=21 f1=0.6887 accuarcy=0.7097 precision=0.6778 recall=0.7097 auc=0.5632 
+[2020-03-09 11:44:40,622]: length=41 f1=0.7062 accuarcy=0.7436 precision=0.7040 recall=0.7436 auc=0.5721 
+[2020-03-09 11:44:49,055]: length=61 f1=0.7046 accuarcy=0.7413 precision=0.7012 recall=0.7413 auc=0.5707 
+[2020-03-09 11:44:57,314]: length=81 f1=0.7056 accuarcy=0.7439 precision=0.7039 recall=0.7439 auc=0.5710 
+[2020-03-09 11:45:06,642]: length=101 f1=0.6995 accuarcy=0.7373 precision=0.6947 recall=0.7373 auc=0.5646 
+[2020-03-09 11:45:16,792]: length=121 f1=0.7052 accuarcy=0.7447 precision=0.7043 recall=0.7447 auc=0.5700 
+[2020-03-09 11:45:26,045]: length=141 f1=0.7034 accuarcy=0.7413 precision=0.7004 recall=0.7413 auc=0.5687 
+[2020-03-09 11:45:35,117]: length=161 f1=0.7026 accuarcy=0.7399 precision=0.6987 recall=0.7399 auc=0.5682 
+[2020-03-09 11:45:46,631]: length=181 f1=0.7035 accuarcy=0.7402 precision=0.6996 recall=0.7402 auc=0.5694 
+[2020-03-09 11:45:55,417]: length=201 f1=0.7019 accuarcy=0.7406 precision=0.6988 recall=0.7406 auc=0.5668 
+[2020-03-09 11:46:04,246]: length=221 f1=0.7057 accuarcy=0.7458 precision=0.7056 recall=0.7458 auc=0.5703 
+[2020-03-09 11:46:13,162]: length=241 f1=0.7011 accuarcy=0.7443 precision=0.7017 recall=0.7443 auc=0.5641 
+[2020-03-09 11:46:24,421]: length=261 f1=0.7036 accuarcy=0.7428 precision=0.7017 recall=0.7428 auc=0.5683 
+[2020-03-09 11:46:34,170]: length=281 f1=0.7024 accuarcy=0.7443 precision=0.7024 recall=0.7443 auc=0.5660 
+[2020-03-09 11:46:42,864]: length=301 f1=0.7019 accuarcy=0.7413 precision=0.6994 recall=0.7413 auc=0.5664 
+[2020-03-09 11:46:51,602]: length=321 f1=0.7032 accuarcy=0.7476 precision=0.7064 recall=0.7476 auc=0.5658 
+[2020-03-09 11:47:02,563]: length=341 f1=0.7099 accuarcy=0.7528 precision=0.7155 recall=0.7528 auc=0.5735 
+[2020-03-09 11:47:17,587]: length=361 f1=0.7053 accuarcy=0.7491 precision=0.7091 recall=0.7491 auc=0.5682 
+[2020-03-09 11:47:29,932]: length=381 f1=0.7055 accuarcy=0.7480 precision=0.7078 recall=0.7480 auc=0.5689 
+[2020-03-09 11:47:41,555]: length=400 f1=0.7063 accuarcy=0.7487 precision=0.7091 recall=0.7487 auc=0.5699 
+[2020-03-09 11:47:41,556]: ----------
+[2020-03-09 11:47:41,557]: the max f1 = 0.7099
+[2020-03-09 11:47:41,558]: ['IL' 'IM' 'AC' 'CG' 'AL' 'II' 'AM' 'MM' 'AP' 'WM' 'WW' 'DN' 'EY' 'WC'
+ 'VM' 'EN' 'NN' 'CI' 'QY' 'MW' 'AG' 'GM' 'QN' 'TM' 'KN' 'NY' 'GA' 'WA'
+ 'PM' 'DY' 'GN' 'GC' 'MC' 'KC' 'NQ' 'CA' 'CP' 'GG' 'PQ' 'GI' 'HY' 'CN'
+ 'LL' 'PR' 'KM' 'YA' 'CD' 'CY' 'AW' 'KA' 'QI' 'FC' 'TY' 'VN' 'AQ' 'MI'
+ 'EI' 'IN' 'KY' 'TQ' 'QK' 'PP' 'PY' 'MK' 'EK' 'YC' 'PN' 'HN' 'RM' 'YG'
+ 'HI' 'AD' 'QG' 'PI' 'QH' 'NI' 'AN' 'TW' 'WL' 'AI' 'FI' 'MH' 'ML' 'WR'
+ 'EH' 'DI' 'KQ' 'RI' 'FT' 'GY' 'NP' 'MA' 'CQ' 'MQ' 'TN' 'IQ' 'QP' 'HQ'
+ 'EQ' 'MG' 'MY' 'GR' 'VC' 'QC' 'GW' 'IK' 'DK' 'SR' 'HM' 'IY' 'AY' 'VW'
+ 'QQ' 'LN' 'WY' 'GP' 'VY' 'KP' 'MN' 'GK' 'FP' 'EP' 'VK' 'CM' 'WP' 'PA'
+ 'IW' 'LR' 'WQ' 'LP' 'SA' 'AK' 'MR' 'HP' 'PT' 'KI' 'YP' 'HK' 'FH' 'WN'
+ 'SG' 'RW' 'EL' 'SM' 'AR' 'WT' 'SW' 'WI' 'FN' 'RL' 'GQ' 'VL' 'IC' 'ST'
+ 'PG' 'LM' 'LY' 'LQ' 'IP' 'EW' 'LW' 'RQ' 'RC' 'AT' 'DM' 'EG' 'SI' 'VH'
+ 'HL' 'TR' 'KH' 'DT' 'FA' 'NT' 'FD' 'VQ' 'NR' 'FK' 'NH' 'TC' 'YI' 'DL'
+ 'GL' 'DR' 'PW' 'HH' 'VI' 'SQ' 'RA' 'RN' 'DP' 'VT' 'VA' 'LC' 'WK' 'EM'
+ 'QA' 'VR' 'TP' 'CK' 'NW' 'RT' 'RK' 'QW' 'NA' 'FY' 'ER' 'ET' 'HW' 'NC'
+ 'KT' 'KW' 'KK' 'DH' 'TA' 'CC' 'RY' 'NM' 'SC' 'DC' 'FG' 'QM' 'FW' 'QT'
+ 'NG' 'CT' 'LI' 'DA' 'CW' 'PC' 'RR' 'LH' 'PL' 'TT' 'YW' 'HG' 'IH' 'SL'
+ 'VP' 'NL' 'LT' 'RH' 'CL' 'FE' 'FM' 'TK' 'KG' 'HC' 'RG' 'TI' 'LK' 'KL'
+ 'VG' 'LG' 'KR' 'YM' 'YN' 'FR' 'IA' 'RP' 'LA' 'DQ' 'EV' 'IR' 'YD' 'CR'
+ 'MP' 'WH' 'VS' 'QF' 'FQ' 'TS' 'WV' 'YR' 'WG' 'FL' 'QD' 'MS' 'FF' 'NV'
+ 'SY' 'HT' 'KD' 'GH' 'WS' 'LS' 'IE' 'EF' 'ID' 'IT' 'EC' 'PK' 'QS' 'EA'
+ 'MF' 'GV' 'YY' 'PH' 'DV' 'VV' 'SS' 'CE' 'NK' 'IG' 'YF' 'PF' 'CV' 'PS'
+ 'AV' 'QE' 'VD' 'SN' 'HF' 'RD' 'DS' 'EE' 'HR' 'AA' 'GT' 'YH' 'QL' 'ND'
+ 'YE' 'DW' 'TG' 'AH' 'YT' 'NF' 'YQ' 'FS' 'SV' 'CS' 'GF' 'SP' 'KF' 'PE'
+ 'LV' 'HD' 'KE' 'GD' 'MV'],length = 341
+[2020-03-09 11:47:41,559]: -----------
+[2020-03-09 11:47:52,579]: ***confusion matrix***
+[2020-03-09 11:47:52,579]:                pos_class      neg_class      
+[2020-03-09 11:47:52,580]: pos_class      TP:144            FN:547            
+[2020-03-09 11:47:52,580]: neg_class      FP:124            TN:1899           
+[2020-03-09 11:47:52,582]: f1 =0.7099 
+[2020-03-09 11:47:52,582]: accuarcy = 0.7528 
+[2020-03-09 11:47:52,584]: precision =0.7155 
+[2020-03-09 11:47:52,585]: recall =0.7528
+[2020-03-09 11:47:52,587]: auc = 0.5735
+[2020-03-09 11:47:54,937]: -----------
+[2020-03-09 11:47:54,938]: metrics have been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\positive_negative.metrics.csv.
+[2020-03-09 11:49:26,721]: Scatter charts visualized by t-SNE dataset has been saved in the .\Results\202d3652-61b5-11ea-be9c-e4b318db5e79.csv.png.
+[2020-03-09 11:49:26,722]: Reduced dimensional dataset has been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\positive_negative.result.csv.
+[2020-03-09 11:49:26,722]: ---mrmd 2.0 end---

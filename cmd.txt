@@ -1,0 +1,12 @@
+ J:/多设备共享/work/pycharm_remote_server/FMRMD2.0/Fmrmd2.0.py --posFile positive.txt --negFile negative.txt --FE_method nac-sequenceType RNA --method mismatch
+
+
+--InputFiles
+1.positive.txt
+0.negative.txt
+--FE_method
+iFeature.py
+--type
+AAC
+--step_length
+5

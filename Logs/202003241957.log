@@ -1,0 +1,55 @@
+[2020-03-24 19:57:48,496]: ---mrmd 2.0 start----
+[2020-03-24 20:00:27,718]: ANOVA start...
+[2020-03-24 20:00:31,035]: ANOVA end.
+[2020-03-24 20:00:31,035]: mic start...
+[2020-03-24 20:00:58,035]: mic end.
+[2020-03-24 20:00:58,038]: mrmd start...
+[2020-03-24 20:02:01,776]: mrmd end.
+[2020-03-24 20:02:01,785]: mRMR start...
+[2020-03-24 20:20:35,652]: mRMR end.
+[2020-03-24 20:20:35,653]: lasso start...
+[2020-03-24 20:20:38,577]: lasso end.
+[2020-03-24 20:20:38,577]: chi2 start...
+[2020-03-24 20:20:41,453]: chi2 end.
+[2020-03-24 20:20:41,454]: ref start...
+[2020-03-24 20:21:52,803]: ref end.
+[2020-03-24 20:22:57,467]: Start dimension reduction ...
+[2020-03-24 20:23:05,476]: length=1 f1=0.6737 accuarcy=0.7520 precision=0.7164 recall=0.7520 auc=0.5311 
+[2020-03-24 20:23:15,200]: length=101 f1=0.7849 accuarcy=0.8110 precision=0.8052 recall=0.8110 auc=0.6641 
+[2020-03-24 20:23:25,167]: length=201 f1=0.7677 accuarcy=0.8058 precision=0.8140 recall=0.8058 auc=0.6353 
+[2020-03-24 20:23:33,723]: length=301 f1=0.7589 accuarcy=0.8029 precision=0.8207 recall=0.8029 auc=0.6229 
+[2020-03-24 20:23:42,780]: length=401 f1=0.7506 accuarcy=0.7985 precision=0.8189 recall=0.7985 auc=0.6128 
+[2020-03-24 20:23:54,408]: length=501 f1=0.7430 accuarcy=0.7948 precision=0.8194 recall=0.7948 auc=0.6036 
+[2020-03-24 20:24:04,589]: length=601 f1=0.7419 accuarcy=0.7951 precision=0.8258 recall=0.7951 auc=0.6020 
+[2020-03-24 20:24:16,199]: length=701 f1=0.7328 accuarcy=0.7911 precision=0.8298 recall=0.7911 auc=0.5916 
+[2020-03-24 20:24:27,664]: length=801 f1=0.7281 accuarcy=0.7885 precision=0.8277 recall=0.7885 auc=0.5866 
+[2020-03-24 20:24:38,686]: length=901 f1=0.7331 accuarcy=0.7915 precision=0.8317 recall=0.7915 auc=0.5919 
+[2020-03-24 20:24:51,033]: length=1001 f1=0.7324 accuarcy=0.7900 precision=0.8226 recall=0.7900 auc=0.5914 
+[2020-03-24 20:25:03,962]: length=1023 f1=0.7378 accuarcy=0.7937 precision=0.8302 recall=0.7937 auc=0.5972 
+[2020-03-24 20:25:03,964]: ----------
+[2020-03-24 20:25:03,964]: the max f1 = 0.7849
+[2020-03-24 20:25:03,965]: ['fea907' 'fea947' 'fea951' 'fea522' 'fea648' 'fea592' 'fea596' 'fea640'
+ 'fea578' 'fea932' 'fea744' 'fea930' 'fea738' 'fea632' 'fea933' 'fea672'
+ 'fea583' 'fea943' 'fea654' 'fea910' 'fea936' 'fea743' 'fea929' 'fea584'
+ 'fea520' 'fea690' 'fea913' 'fea698' 'fea512' 'fea955' 'fea931' 'fea288'
+ 'fea292' 'fea232' 'fea980' 'fea290' 'fea565' 'fea952' 'fea908' 'fea1000'
+ 'fea266' 'fea882' 'fea605' 'fea740' 'fea650' 'fea696' 'fea903' 'fea638'
+ 'fea642' 'fea589' 'fea636' 'fea185' 'fea912' 'fea196' 'fea600' 'fea649'
+ 'fea656' 'fea940' '1023' 'fea716' 'fea909' 'fea915' 'fea295' 'fea959'
+ 'fea587' 'fea51' 'fea719' 'fea734' 'fea758' 'fea146' 'fea630' 'fea571'
+ 'fea697' 'fea547' 'fea960' 'fea296' 'fea928' 'fea637' 'fea944' 'fea588'
+ 'fea151' 'fea569' 'fea768' 'fea484' 'fea234' 'fea541' 'fea751' 'fea783'
+ 'fea767' 'fea570' 'fea1001' 'fea557' 'fea745' 'fea684' 'fea676' 'fea748'
+ 'fea542' 'fea620' 'fea564' 'fea142' 'fea524'],length = 101
+[2020-03-24 20:25:03,965]: -----------
+[2020-03-24 20:25:11,687]: f1 =0.7849 
+[2020-03-24 20:25:11,688]: accuarcy = 0.8110 
+[2020-03-24 20:25:11,690]: precision =0.8052 
+[2020-03-24 20:25:11,691]: recall =0.8110
+[2020-03-24 20:25:11,694]: auc = 0.6641
+[2020-03-24 20:25:11,977]: -----------
+[2020-03-24 20:25:11,977]: The output by the terminal's log has been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Logs\202003241957.log.
+[2020-03-24 20:25:12,034]: metrics have been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\1.positive.txt.0.negative.txt.metrics.csv.
+[2020-03-24 20:27:05,585]: Scatter charts visualized by t-SNE dataset has been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\aa6207d4-6dc6-11ea-8eb5-c85b761ee439.csv.png.
+[2020-03-24 20:27:05,586]: Reduced dimensional dataset has been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\1.positive.txt.0.negative.txt.result.csv.
+[2020-03-24 20:27:05,586]: ---mrmd 2.0 end---

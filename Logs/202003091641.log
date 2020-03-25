@@ -1,0 +1,37 @@
+[2020-03-09 16:41:29,280]: ---mrmd 2.0 start----
+[2020-03-09 16:43:15,721]: ANOVA start...
+[2020-03-09 16:43:15,784]: ANOVA end.
+[2020-03-09 16:43:15,784]: mic start...
+[2020-03-09 16:43:29,450]: mic end.
+[2020-03-09 16:43:29,451]: mrmd start...
+[2020-03-09 16:43:29,553]: mrmd end.
+[2020-03-09 16:43:29,553]: mRMR start...
+[2020-03-09 16:43:29,753]: mRMR end.
+[2020-03-09 16:43:29,754]: lasso start...
+[2020-03-09 16:43:29,812]: lasso end.
+[2020-03-09 16:43:29,812]: chi2 start...
+[2020-03-09 16:43:29,873]: chi2 end.
+[2020-03-09 16:43:29,873]: ref start...
+[2020-03-09 16:43:30,215]: ref end.
+[2020-03-09 16:43:30,387]: Start dimension reduction ...
+[2020-03-09 16:43:39,896]: length=1 f1=0.6786 accuarcy=0.7181 precision=0.6668 recall=0.7181 auc=0.5408 
+[2020-03-09 16:43:51,052]: length=16 f1=0.7703 accuarcy=0.7981 precision=0.7860 recall=0.7981 auc=0.6473 
+[2020-03-09 16:43:51,054]: ----------
+[2020-03-09 16:43:51,054]: the max f1 = 0.7703
+[2020-03-09 16:43:51,054]: ['fea13' 'fea10' 'fea3' 'fea5' 'fea7' 'fea14' 'fea6' 'fea2' 'fea9' 'fea4'
+ 'fea0' 'fea11' 'fea15' 'fea1' 'fea8' 'fea12'],length = 16
+[2020-03-09 16:43:51,055]: -----------
+[2020-03-09 16:44:02,256]: ***confusion matrix***
+[2020-03-09 16:44:02,256]:                pos_class      neg_class      
+[2020-03-09 16:44:02,256]: pos_class      TP:235            FN:456            
+[2020-03-09 16:44:02,257]: neg_class      FP:92             TN:1931           
+[2020-03-09 16:44:02,258]: f1 =0.7703 
+[2020-03-09 16:44:02,260]: accuarcy = 0.7981 
+[2020-03-09 16:44:02,262]: precision =0.7860 
+[2020-03-09 16:44:02,264]: recall =0.7981
+[2020-03-09 16:44:02,266]: auc = 0.6473
+[2020-03-09 16:44:02,386]: -----------
+[2020-03-09 16:44:02,386]: metrics have been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\positive_negative.metrics.csv.
+[2020-03-09 16:45:47,836]: Scatter charts visualized by t-SNE dataset has been saved in the .\Results\c245b068-61e1-11ea-ab78-e4b318db5e79.csv.png.
+[2020-03-09 16:45:47,837]: Reduced dimensional dataset has been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\positive_negative.result.csv.
+[2020-03-09 16:45:47,837]: ---mrmd 2.0 end---

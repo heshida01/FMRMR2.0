@@ -1,0 +1,55 @@
+[2020-03-09 17:53:19,485]: ---mrmd 2.0 start----
+[2020-03-09 17:54:33,909]: ANOVA start...
+[2020-03-09 17:54:33,994]: ANOVA end.
+[2020-03-09 17:54:33,995]: mic start...
+[2020-03-09 17:54:44,150]: mic end.
+[2020-03-09 17:54:44,151]: mrmd start...
+[2020-03-09 17:54:44,218]: mrmd end.
+[2020-03-09 17:54:44,218]: mRMR start...
+[2020-03-09 17:54:44,630]: mRMR end.
+[2020-03-09 17:54:44,630]: lasso start...
+[2020-03-09 17:54:44,687]: lasso end.
+[2020-03-09 17:54:44,687]: chi2 start...
+[2020-03-09 17:54:44,801]: chi2 end.
+[2020-03-09 17:54:44,801]: ref start...
+[2020-03-09 17:54:45,088]: ref end.
+[2020-03-09 17:54:45,261]: Start dimension reduction ...
+[2020-03-09 17:54:51,875]: length=1 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-09 17:54:58,365]: length=2 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-09 17:55:05,193]: length=3 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-09 17:55:12,401]: length=4 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-09 17:55:20,245]: length=5 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-09 17:55:26,949]: length=6 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-09 17:55:33,623]: length=7 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-09 17:55:40,839]: length=8 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-09 17:55:47,543]: length=9 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-09 17:55:54,774]: length=10 f1=0.6367 accuarcy=0.7454 precision=0.5556 recall=0.7454 auc=0.5000 
+[2020-03-09 17:56:02,142]: length=11 f1=0.6437 accuarcy=0.6769 precision=0.6240 recall=0.6769 auc=0.5036 
+[2020-03-09 17:56:09,716]: length=12 f1=0.6437 accuarcy=0.6769 precision=0.6240 recall=0.6769 auc=0.5036 
+[2020-03-09 17:56:16,980]: length=13 f1=0.6437 accuarcy=0.6769 precision=0.6240 recall=0.6769 auc=0.5036 
+[2020-03-09 17:56:24,413]: length=14 f1=0.6437 accuarcy=0.6769 precision=0.6240 recall=0.6769 auc=0.5036 
+[2020-03-09 17:56:31,783]: length=15 f1=0.6540 accuarcy=0.6835 precision=0.6370 recall=0.6835 auc=0.5171 
+[2020-03-09 17:56:39,262]: length=16 f1=0.6536 accuarcy=0.6802 precision=0.6375 recall=0.6802 auc=0.5182 
+[2020-03-09 17:56:46,689]: length=17 f1=0.6559 accuarcy=0.6842 precision=0.6395 recall=0.6842 auc=0.5200 
+[2020-03-09 17:56:54,279]: length=18 f1=0.6581 accuarcy=0.6861 precision=0.6420 recall=0.6861 auc=0.5226 
+[2020-03-09 17:57:01,855]: length=19 f1=0.6652 accuarcy=0.6949 precision=0.6498 recall=0.6949 auc=0.5300 
+[2020-03-09 17:57:09,774]: length=20 f1=0.6617 accuarcy=0.6916 precision=0.6457 recall=0.6916 auc=0.5259 
+[2020-03-09 17:57:09,776]: ----------
+[2020-03-09 17:57:09,776]: the max f1 = 0.6652
+[2020-03-09 17:57:09,776]: ['H' 'F' 'P' 'V' 'L' 'M' 'Y' 'K' 'N' 'Q' 'A' 'W' 'I' 'D' 'C' 'E' 'T' 'R'
+ 'G'],length = 19
+[2020-03-09 17:57:09,776]: -----------
+[2020-03-09 17:57:17,182]: ***confusion matrix***
+[2020-03-09 17:57:17,183]:                pos_class      neg_class      
+[2020-03-09 17:57:17,183]: pos_class      TP:134            FN:557            
+[2020-03-09 17:57:17,183]: neg_class      FP:271            TN:1752           
+[2020-03-09 17:57:17,184]: f1 =0.6652 
+[2020-03-09 17:57:17,185]: accuarcy = 0.6949 
+[2020-03-09 17:57:17,186]: precision =0.6498 
+[2020-03-09 17:57:17,187]: recall =0.6949
+[2020-03-09 17:57:17,188]: auc = 0.5300
+[2020-03-09 17:57:17,260]: -----------
+[2020-03-09 17:57:17,261]: metrics have been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\positive_negative.metrics.csv.
+[2020-03-09 17:58:28,085]: Scatter charts visualized by t-SNE dataset has been saved in the .\Results\cbe14ae8-61eb-11ea-9582-e4b318db5e79.csv.png.
+[2020-03-09 17:58:28,085]: Reduced dimensional dataset has been saved in the J:\多设备共享\work\pycharm_remote_server\FMRMD2.0\Results\positive_negative.result.csv.
+[2020-03-09 17:58:28,085]: ---mrmd 2.0 end---

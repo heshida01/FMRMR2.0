@@ -1,0 +1,5 @@
+ 2to3 -w .\nac.py
+python nac.py nn.txt nn1.txt   -k 3 Protein Kmer -k 2
+python acc.py nn.txt nn1.txt    Protein  CC ACC AC
+python pse.py nn.txt nn1.txt    Protein ['PC-PseAAC', 'PC-PseAAC-General', 'SC-PseAAC', 'SC-PseAAC-General']
+python .\sc.py .\sc_example.txt nn1.txt    RNA PSESSC

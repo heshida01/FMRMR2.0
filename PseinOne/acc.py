@@ -153,12 +153,14 @@ def autocorrelation(autoc, inputfile, props, k, l, alphabet):
     input_data = open(inputfile, 'r')
     sequences =get_data(input_data,alphabet)
     # Getting supporting info from files
+    import os
     if k == 2 and alphabet == index_list.RNA:
-        SupFileName = './data/Supporting_Information_S1_RNA.txt'
+        SupFileName = f'{os.path.dirname(os.path.abspath(__file__))}/data/Supporting_Information_S1_RNA.txt'
     elif k == 2 and alphabet == index_list.DNA:
-        SupFileName = './data/Supporting_Information_S1_DNA.txt'
+        SupFileName = f'{os.path.dirname(os.path.abspath(__file__))}/data/Supporting_Information_S1_DNA.txt'
     elif k == 3 and alphabet == index_list.DNA:
-        SupFileName = './data/Supporting_Information_S3_DNA.txt'
+        SupFileName =f'{os.path.dirname(os.path.abspath(__file__))}/data/Supporting_Information_S3_DNA.txt'
+    print('#########',SupFileName)
     SupFile = open(SupFileName, 'r')
     supInfo = SupFile.read()
     o = re.search('Physicochemical properties\,(.+)\n', supInfo)

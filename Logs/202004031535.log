@@ -1,0 +1,139 @@
+[2020-04-03 15:35:15,439]: ---mrmd 2.0 start----
+[2020-04-03 15:35:34,419]: ANOVA start...
+[2020-04-03 15:35:34,428]: ANOVA end.
+[2020-04-03 15:35:34,428]: mic start...
+[2020-04-03 15:35:34,811]: mic end.
+[2020-04-03 15:35:34,811]: mrmd start...
+[2020-04-03 15:35:34,908]: mrmd end.
+[2020-04-03 15:35:34,908]: mRMR start...
+[2020-04-03 15:35:35,768]: mRMR end.
+[2020-04-03 15:35:35,769]: lasso start...
+[2020-04-03 15:35:35,815]: lasso end.
+[2020-04-03 15:35:35,816]: chi2 start...
+[2020-04-03 15:35:35,850]: chi2 end.
+[2020-04-03 15:35:35,851]: ref start...
+[2020-04-03 15:35:36,770]: ref end.
+[2020-04-03 15:35:36,773]: rank start ...
+[2020-04-03 15:35:36,779]: The final  rank is
+[2020-04-03 15:35:36,779]: Pc1.D : 0.0151
+[2020-04-03 15:35:36,779]: Pc2.Hydrophobicity.6 : 0.0149
+[2020-04-03 15:35:36,779]: Pc2.Hydrophilicity.5 : 0.0147
+[2020-04-03 15:35:36,779]: Pc2.Hydrophobicity.20 : 0.0145
+[2020-04-03 15:35:36,779]: Pc1.N : 0.0144
+[2020-04-03 15:35:36,779]: Pc2.Hydrophobicity.9 : 0.0144
+[2020-04-03 15:35:36,779]: Pc1.M : 0.0142
+[2020-04-03 15:35:36,779]: Pc2.Hydrophobicity.14 : 0.0141
+[2020-04-03 15:35:36,779]: Pc1.V : 0.0141
+[2020-04-03 15:35:36,779]: Pc1.G : 0.0141
+[2020-04-03 15:35:36,779]: Pc1.K : 0.0141
+[2020-04-03 15:35:36,779]: Pc2.Hydrophilicity.21 : 0.0141
+[2020-04-03 15:35:36,779]: Pc2.Hydrophobicity.22 : 0.0141
+[2020-04-03 15:35:36,780]: Pc2.Hydrophobicity.15 : 0.0140
+[2020-04-03 15:35:36,780]: Pc1.Y : 0.0140
+[2020-04-03 15:35:36,780]: Pc2.Hydrophilicity.28 : 0.0140
+[2020-04-03 15:35:36,780]: Pc2.Hydrophobicity.18 : 0.0139
+[2020-04-03 15:35:36,780]: Pc1.A : 0.0139
+[2020-04-03 15:35:36,780]: Pc2.Hydrophilicity.18 : 0.0138
+[2020-04-03 15:35:36,780]: Pc2.Hydrophobicity.16 : 0.0138
+[2020-04-03 15:35:36,780]: Pc2.Hydrophobicity.4 : 0.0138
+[2020-04-03 15:35:36,780]: Pc1.R : 0.0137
+[2020-04-03 15:35:36,780]: Pc2.Hydrophilicity.10 : 0.0137
+[2020-04-03 15:35:36,780]: Pc1.T : 0.0134
+[2020-04-03 15:35:36,780]: Pc2.Hydrophilicity.1 : 0.0134
+[2020-04-03 15:35:36,780]: Pc2.Hydrophilicity.19 : 0.0134
+[2020-04-03 15:35:36,780]: Pc2.Hydrophilicity.4 : 0.0132
+[2020-04-03 15:35:36,780]: Pc2.Hydrophilicity.30 : 0.0132
+[2020-04-03 15:35:36,780]: Pc1.H : 0.0131
+[2020-04-03 15:35:36,780]: Pc2.Hydrophobicity.2 : 0.0131
+[2020-04-03 15:35:36,781]: Pc1.Q : 0.0131
+[2020-04-03 15:35:36,781]: Pc1.S : 0.0129
+[2020-04-03 15:35:36,781]: Pc2.Hydrophobicity.10 : 0.0129
+[2020-04-03 15:35:36,781]: Pc1.I : 0.0128
+[2020-04-03 15:35:36,781]: Pc2.Hydrophobicity.7 : 0.0128
+[2020-04-03 15:35:36,781]: Pc2.Hydrophilicity.20 : 0.0127
+[2020-04-03 15:35:36,781]: Pc2.Hydrophilicity.24 : 0.0126
+[2020-04-03 15:35:36,781]: Pc1.P : 0.0125
+[2020-04-03 15:35:36,781]: Pc2.Hydrophobicity.28 : 0.0125
+[2020-04-03 15:35:36,781]: Pc1.W : 0.0125
+[2020-04-03 15:35:36,781]: Pc2.Hydrophobicity.25 : 0.0124
+[2020-04-03 15:35:36,781]: Pc2.Hydrophilicity.12 : 0.0124
+[2020-04-03 15:35:36,781]: Pc2.Hydrophilicity.16 : 0.0123
+[2020-04-03 15:35:36,781]: Pc2.Hydrophilicity.27 : 0.0123
+[2020-04-03 15:35:36,781]: Pc2.Hydrophobicity.5 : 0.0122
+[2020-04-03 15:35:36,781]: Pc2.Hydrophobicity.19 : 0.0121
+[2020-04-03 15:35:36,781]: Pc1.L : 0.0121
+[2020-04-03 15:35:36,781]: Pc2.Hydrophobicity.21 : 0.0121
+[2020-04-03 15:35:36,782]: Pc2.Hydrophilicity.29 : 0.0121
+[2020-04-03 15:35:36,782]: Pc2.Hydrophobicity.17 : 0.0121
+[2020-04-03 15:35:36,782]: Pc2.Hydrophilicity.22 : 0.0120
+[2020-04-03 15:35:36,782]: Pc1.E : 0.0120
+[2020-04-03 15:35:36,782]: Pc2.Hydrophilicity.9 : 0.0120
+[2020-04-03 15:35:36,782]: Pc2.Hydrophobicity.23 : 0.0120
+[2020-04-03 15:35:36,782]: Pc2.Hydrophobicity.29 : 0.0119
+[2020-04-03 15:35:36,782]: Pc2.Hydrophilicity.26 : 0.0119
+[2020-04-03 15:35:36,782]: Pc1.F : 0.0119
+[2020-04-03 15:35:36,782]: Pc2.Hydrophilicity.3 : 0.0119
+[2020-04-03 15:35:36,782]: Pc1.C : 0.0118
+[2020-04-03 15:35:36,782]: Pc2.Hydrophilicity.17 : 0.0117
+[2020-04-03 15:35:36,782]: Pc2.Hydrophobicity.11 : 0.0117
+[2020-04-03 15:35:36,782]: Pc2.Hydrophilicity.23 : 0.0116
+[2020-04-03 15:35:36,782]: Pc2.Hydrophilicity.8 : 0.0115
+[2020-04-03 15:35:36,782]: Pc2.Hydrophobicity.13 : 0.0115
+[2020-04-03 15:35:36,782]: Pc2.Hydrophobicity.30 : 0.0115
+[2020-04-03 15:35:36,782]: Pc2.Hydrophobicity.24 : 0.0114
+[2020-04-03 15:35:36,783]: Pc2.Hydrophobicity.8 : 0.0113
+[2020-04-03 15:35:36,783]: Pc2.Hydrophilicity.15 : 0.0113
+[2020-04-03 15:35:36,783]: Pc2.Hydrophobicity.1 : 0.0112
+[2020-04-03 15:35:36,783]: Pc2.Hydrophilicity.2 : 0.0110
+[2020-04-03 15:35:36,783]: Pc2.Hydrophobicity.12 : 0.0108
+[2020-04-03 15:35:36,783]: Pc2.Hydrophilicity.7 : 0.0108
+[2020-04-03 15:35:36,783]: Pc2.Hydrophobicity.27 : 0.0108
+[2020-04-03 15:35:36,783]: Pc2.Hydrophilicity.25 : 0.0107
+[2020-04-03 15:35:36,783]: Pc2.Hydrophilicity.11 : 0.0105
+[2020-04-03 15:35:36,783]: Pc2.Hydrophilicity.6 : 0.0101
+[2020-04-03 15:35:36,783]: Pc2.Hydrophobicity.26 : 0.0098
+[2020-04-03 15:35:36,783]: Pc2.Hydrophilicity.14 : 0.0092
+[2020-04-03 15:35:36,783]: Pc2.Hydrophilicity.13 : 0.0085
+[2020-04-03 15:35:36,783]: Pc2.Hydrophobicity.3 : 0.0082
+[2020-04-03 15:35:36,783]: feature_rank end
+[2020-04-03 15:35:36,813]: Start dimension reduction ...
+[2020-04-03 15:35:38,019]: length=1 f1=0.3233 accuarcy=0.3223 precision=0.3269 recall=0.3223 auc=0.4901 
+[2020-04-03 15:35:38,739]: length=80 f1=0.5618 accuarcy=0.5620 precision=0.5869 recall=0.5620 auc=0.6626 
+[2020-04-03 15:35:38,740]: ----------
+[2020-04-03 15:35:38,740]: the max f1 = 0.5618
+[2020-04-03 15:35:38,740]: ['Pc1.D' 'Pc2.Hydrophobicity.6' 'Pc2.Hydrophilicity.5'
+ 'Pc2.Hydrophobicity.20' 'Pc1.N' 'Pc2.Hydrophobicity.9' 'Pc1.M'
+ 'Pc2.Hydrophobicity.14' 'Pc1.V' 'Pc1.G' 'Pc1.K' 'Pc2.Hydrophilicity.21'
+ 'Pc2.Hydrophobicity.22' 'Pc2.Hydrophobicity.15' 'Pc1.Y'
+ 'Pc2.Hydrophilicity.28' 'Pc2.Hydrophobicity.18' 'Pc1.A'
+ 'Pc2.Hydrophilicity.18' 'Pc2.Hydrophobicity.16' 'Pc2.Hydrophobicity.4'
+ 'Pc1.R' 'Pc2.Hydrophilicity.10' 'Pc1.T' 'Pc2.Hydrophilicity.1'
+ 'Pc2.Hydrophilicity.19' 'Pc2.Hydrophilicity.4' 'Pc2.Hydrophilicity.30'
+ 'Pc1.H' 'Pc2.Hydrophobicity.2' 'Pc1.Q' 'Pc1.S' 'Pc2.Hydrophobicity.10'
+ 'Pc1.I' 'Pc2.Hydrophobicity.7' 'Pc2.Hydrophilicity.20'
+ 'Pc2.Hydrophilicity.24' 'Pc1.P' 'Pc2.Hydrophobicity.28' 'Pc1.W'
+ 'Pc2.Hydrophobicity.25' 'Pc2.Hydrophilicity.12' 'Pc2.Hydrophilicity.16'
+ 'Pc2.Hydrophilicity.27' 'Pc2.Hydrophobicity.5' 'Pc2.Hydrophobicity.19'
+ 'Pc1.L' 'Pc2.Hydrophobicity.21' 'Pc2.Hydrophilicity.29'
+ 'Pc2.Hydrophobicity.17' 'Pc2.Hydrophilicity.22' 'Pc1.E'
+ 'Pc2.Hydrophilicity.9' 'Pc2.Hydrophobicity.23' 'Pc2.Hydrophobicity.29'
+ 'Pc2.Hydrophilicity.26' 'Pc1.F' 'Pc2.Hydrophilicity.3' 'Pc1.C'
+ 'Pc2.Hydrophilicity.17' 'Pc2.Hydrophobicity.11' 'Pc2.Hydrophilicity.23'
+ 'Pc2.Hydrophilicity.8' 'Pc2.Hydrophobicity.13' 'Pc2.Hydrophobicity.30'
+ 'Pc2.Hydrophobicity.24' 'Pc2.Hydrophobicity.8' 'Pc2.Hydrophilicity.15'
+ 'Pc2.Hydrophobicity.1' 'Pc2.Hydrophilicity.2' 'Pc2.Hydrophobicity.12'
+ 'Pc2.Hydrophilicity.7' 'Pc2.Hydrophobicity.27' 'Pc2.Hydrophilicity.25'
+ 'Pc2.Hydrophilicity.11' 'Pc2.Hydrophilicity.6' 'Pc2.Hydrophobicity.26'
+ 'Pc2.Hydrophilicity.14' 'Pc2.Hydrophilicity.13' 'Pc2.Hydrophobicity.3'],length = 80
+[2020-04-03 15:35:38,740]: -----------
+[2020-04-03 15:35:39,291]: f1 =0.5618 
+[2020-04-03 15:35:39,292]: accuarcy = 0.5620 
+[2020-04-03 15:35:39,293]: precision =0.5869 
+[2020-04-03 15:35:39,295]: recall =0.5620
+[2020-04-03 15:35:39,300]: auc = 0.6626
+[2020-04-03 15:35:39,322]: -----------
+[2020-04-03 15:35:39,322]: The output by the terminal's log has been saved in the /home/heshida/work/FMRMD2.0/Logs/202004031535.log.
+[2020-04-03 15:35:39,322]: metrics have been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.metrics.csv.
+[2020-04-03 15:35:40,161]: Scatter charts visualized by t-SNE dataset has been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.fasta.out.csv.png.
+[2020-04-03 15:35:40,162]: Reduced dimensional dataset has been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.result.csv.
+[2020-04-03 15:35:40,162]: ---mrmd 2.0 end---

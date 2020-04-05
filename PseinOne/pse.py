@@ -160,7 +160,7 @@ def get_aaindex(index_list):
     :return: a list of AAIndex obj.
     """
     new_aaindex = []
-    with open('data/aaindex.data', 'rb') as f:
+    with open(f'{os.path.dirname(os.path.abspath(__file__))}/data/aaindex.data', 'rb') as f:
         aaindex = pickle.load(f)
         for index_vals in aaindex:
             if index_vals.head in index_list:
@@ -226,13 +226,15 @@ def extend_phyche_index(original_index, extend_index):
 
 def get_phyche_factor_dic(k, alphabet):
     """Get all DNA or RNA {nucleotide: [(phyche, value), ...]} dict."""
-    full_path = os.path.realpath(__file__)
+    #full_path = os.path.realpath(__file__)
+    full_path = os.path.dirname(os.path.abspath(__file__))
+   
     if 2 == k and alphabet == index_list.DNA:
-        file_path = "%s/data/didna.data" % os.path.dirname(full_path)
+        file_path = "%s/data/didna.data" % full_path
     elif 2 == k and alphabet == index_list.RNA:
-        file_path = "%s/data/dirna.data" % os.path.dirname(full_path)
+        file_path = "%s/data/dirna.data" % full_path
     elif 3 == k:
-        file_path = "%s/data/mmc4.data" % os.path.dirname(full_path)
+        file_path = "%s/data/mmc4.data" % full_path
     else:
         sys.stderr.write("The k can just be 2 or 3.")
         sys.exit(0)

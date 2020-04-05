@@ -1,0 +1,160 @@
+[2020-04-03 15:31:58,237]: ---mrmd 2.0 start----
+[2020-04-03 15:32:27,160]: ANOVA start...
+[2020-04-03 15:32:27,171]: ANOVA end.
+[2020-04-03 15:32:27,171]: mic start...
+[2020-04-03 15:32:27,661]: mic end.
+[2020-04-03 15:32:27,662]: mrmd start...
+[2020-04-03 15:32:27,799]: mrmd end.
+[2020-04-03 15:32:27,799]: mRMR start...
+[2020-04-03 15:32:28,566]: mRMR end.
+[2020-04-03 15:32:28,566]: lasso start...
+[2020-04-03 15:32:28,604]: lasso end.
+[2020-04-03 15:32:28,604]: chi2 start...
+[2020-04-03 15:32:28,691]: chi2 end.
+[2020-04-03 15:32:28,691]: ref start...
+[2020-04-03 15:32:30,073]: ref end.
+[2020-04-03 15:32:30,076]: rank start ...
+[2020-04-03 15:32:30,084]: The final  rank is
+[2020-04-03 15:32:30,084]: Schneider.Xr.I : 0.0121
+[2020-04-03 15:32:30,084]: Schneider.Xr.M : 0.0119
+[2020-04-03 15:32:30,084]: Schneider.Xd.24 : 0.0119
+[2020-04-03 15:32:30,084]: Schneider.Xr.P : 0.0117
+[2020-04-03 15:32:30,084]: Schneider.Xr.Y : 0.0116
+[2020-04-03 15:32:30,084]: Grantham.Xd.22 : 0.0116
+[2020-04-03 15:32:30,084]: Schneider.Xr.W : 0.0115
+[2020-04-03 15:32:30,084]: Grantham.Xr.E : 0.0115
+[2020-04-03 15:32:30,085]: Schneider.Xr.S : 0.0115
+[2020-04-03 15:32:30,085]: Schneider.Xr.Q : 0.0114
+[2020-04-03 15:32:30,085]: Schneider.Xr.A : 0.0114
+[2020-04-03 15:32:30,085]: Schneider.Xr.T : 0.0113
+[2020-04-03 15:32:30,085]: Schneider.Xd.27 : 0.0113
+[2020-04-03 15:32:30,085]: Schneider.Xd.13 : 0.0113
+[2020-04-03 15:32:30,085]: Schneider.Xd.1 : 0.0112
+[2020-04-03 15:32:30,085]: Schneider.Xd.19 : 0.0112
+[2020-04-03 15:32:30,085]: Schneider.Xd.6 : 0.0112
+[2020-04-03 15:32:30,085]: Grantham.Xd.29 : 0.0112
+[2020-04-03 15:32:30,085]: Schneider.Xr.H : 0.0111
+[2020-04-03 15:32:30,085]: Schneider.Xr.F : 0.0111
+[2020-04-03 15:32:30,085]: Schneider.Xd.29 : 0.0110
+[2020-04-03 15:32:30,085]: Schneider.Xr.K : 0.0110
+[2020-04-03 15:32:30,085]: Schneider.Xd.11 : 0.0109
+[2020-04-03 15:32:30,085]: Grantham.Xd.10 : 0.0109
+[2020-04-03 15:32:30,085]: Schneider.Xr.N : 0.0109
+[2020-04-03 15:32:30,085]: Schneider.Xd.20 : 0.0109
+[2020-04-03 15:32:30,086]: Schneider.Xd.10 : 0.0108
+[2020-04-03 15:32:30,086]: Schneider.Xd.9 : 0.0108
+[2020-04-03 15:32:30,086]: Schneider.Xd.21 : 0.0108
+[2020-04-03 15:32:30,086]: Grantham.Xr.V : 0.0107
+[2020-04-03 15:32:30,086]: Grantham.Xr.F : 0.0106
+[2020-04-03 15:32:30,086]: Schneider.Xd.17 : 0.0105
+[2020-04-03 15:32:30,086]: Grantham.Xr.A : 0.0105
+[2020-04-03 15:32:30,086]: Schneider.Xr.D : 0.0105
+[2020-04-03 15:32:30,086]: Grantham.Xr.S : 0.0105
+[2020-04-03 15:32:30,086]: Grantham.Xr.T : 0.0104
+[2020-04-03 15:32:30,086]: Grantham.Xd.28 : 0.0103
+[2020-04-03 15:32:30,086]: Grantham.Xr.Q : 0.0103
+[2020-04-03 15:32:30,086]: Grantham.Xd.16 : 0.0103
+[2020-04-03 15:32:30,086]: Schneider.Xd.30 : 0.0103
+[2020-04-03 15:32:30,086]: Grantham.Xr.L : 0.0103
+[2020-04-03 15:32:30,086]: Schneider.Xr.V : 0.0102
+[2020-04-03 15:32:30,086]: Grantham.Xd.7 : 0.0102
+[2020-04-03 15:32:30,086]: Grantham.Xr.M : 0.0102
+[2020-04-03 15:32:30,087]: Schneider.Xr.E : 0.0102
+[2020-04-03 15:32:30,087]: Grantham.Xr.R : 0.0102
+[2020-04-03 15:32:30,087]: Grantham.Xd.23 : 0.0101
+[2020-04-03 15:32:30,087]: Grantham.Xr.D : 0.0101
+[2020-04-03 15:32:30,087]: Grantham.Xd.3 : 0.0101
+[2020-04-03 15:32:30,087]: Schneider.Xr.R : 0.0101
+[2020-04-03 15:32:30,087]: Grantham.Xd.25 : 0.0101
+[2020-04-03 15:32:30,087]: Grantham.Xr.K : 0.0101
+[2020-04-03 15:32:30,087]: Schneider.Xd.26 : 0.0100
+[2020-04-03 15:32:30,087]: Grantham.Xd.30 : 0.0100
+[2020-04-03 15:32:30,087]: Schneider.Xd.18 : 0.0100
+[2020-04-03 15:32:30,087]: Schneider.Xr.L : 0.0099
+[2020-04-03 15:32:30,087]: Schneider.Xd.23 : 0.0099
+[2020-04-03 15:32:30,087]: Grantham.Xr.N : 0.0099
+[2020-04-03 15:32:30,087]: Grantham.Xr.W : 0.0098
+[2020-04-03 15:32:30,087]: Grantham.Xd.9 : 0.0098
+[2020-04-03 15:32:30,087]: Schneider.Xd.28 : 0.0098
+[2020-04-03 15:32:30,087]: Schneider.Xd.5 : 0.0098
+[2020-04-03 15:32:30,088]: Grantham.Xr.C : 0.0098
+[2020-04-03 15:32:30,088]: Grantham.Xr.P : 0.0097
+[2020-04-03 15:32:30,088]: Grantham.Xd.1 : 0.0097
+[2020-04-03 15:32:30,088]: Grantham.Xd.4 : 0.0097
+[2020-04-03 15:32:30,088]: Grantham.Xd.12 : 0.0097
+[2020-04-03 15:32:30,088]: Grantham.Xd.24 : 0.0097
+[2020-04-03 15:32:30,088]: Schneider.Xd.16 : 0.0096
+[2020-04-03 15:32:30,088]: Grantham.Xr.I : 0.0095
+[2020-04-03 15:32:30,088]: Schneider.Xd.7 : 0.0095
+[2020-04-03 15:32:30,088]: Schneider.Xr.C : 0.0094
+[2020-04-03 15:32:30,088]: Grantham.Xd.6 : 0.0094
+[2020-04-03 15:32:30,088]: Grantham.Xd.17 : 0.0093
+[2020-04-03 15:32:30,088]: Schneider.Xd.4 : 0.0093
+[2020-04-03 15:32:30,088]: Schneider.Xd.22 : 0.0093
+[2020-04-03 15:32:30,088]: Schneider.Xr.G : 0.0093
+[2020-04-03 15:32:30,088]: Schneider.Xd.14 : 0.0093
+[2020-04-03 15:32:30,088]: Schneider.Xd.8 : 0.0093
+[2020-04-03 15:32:30,089]: Grantham.Xd.20 : 0.0092
+[2020-04-03 15:32:30,089]: Grantham.Xd.11 : 0.0091
+[2020-04-03 15:32:30,089]: Grantham.Xd.26 : 0.0091
+[2020-04-03 15:32:30,089]: Grantham.Xd.18 : 0.0090
+[2020-04-03 15:32:30,089]: Grantham.Xd.14 : 0.0090
+[2020-04-03 15:32:30,089]: Grantham.Xr.H : 0.0089
+[2020-04-03 15:32:30,089]: Grantham.Xd.13 : 0.0089
+[2020-04-03 15:32:30,089]: Grantham.Xd.5 : 0.0088
+[2020-04-03 15:32:30,089]: Schneider.Xd.2 : 0.0088
+[2020-04-03 15:32:30,089]: Grantham.Xd.21 : 0.0088
+[2020-04-03 15:32:30,089]: Schneider.Xd.12 : 0.0088
+[2020-04-03 15:32:30,089]: Schneider.Xd.3 : 0.0086
+[2020-04-03 15:32:30,089]: Grantham.Xd.2 : 0.0086
+[2020-04-03 15:32:30,089]: Grantham.Xd.15 : 0.0084
+[2020-04-03 15:32:30,089]: Grantham.Xr.G : 0.0083
+[2020-04-03 15:32:30,089]: Grantham.Xr.Y : 0.0082
+[2020-04-03 15:32:30,089]: Schneider.Xd.25 : 0.0082
+[2020-04-03 15:32:30,089]: Grantham.Xd.27 : 0.0081
+[2020-04-03 15:32:30,090]: Grantham.Xd.19 : 0.0073
+[2020-04-03 15:32:30,090]: Grantham.Xd.8 : 0.0064
+[2020-04-03 15:32:30,090]: Schneider.Xd.15 : 0.0056
+[2020-04-03 15:32:30,090]: feature_rank end
+[2020-04-03 15:32:30,123]: Start dimension reduction ...
+[2020-04-03 15:32:31,366]: length=1 f1=0.4400 accuarcy=0.4380 precision=0.4427 recall=0.4380 auc=0.5740 
+[2020-04-03 15:32:32,096]: length=100 f1=0.5454 accuarcy=0.5455 precision=0.5576 recall=0.5455 auc=0.6539 
+[2020-04-03 15:32:32,096]: ----------
+[2020-04-03 15:32:32,097]: the max f1 = 0.5454
+[2020-04-03 15:32:32,097]: ['Schneider.Xr.I' 'Schneider.Xr.M' 'Schneider.Xd.24' 'Schneider.Xr.P'
+ 'Schneider.Xr.Y' 'Grantham.Xd.22' 'Schneider.Xr.W' 'Grantham.Xr.E'
+ 'Schneider.Xr.S' 'Schneider.Xr.Q' 'Schneider.Xr.A' 'Schneider.Xr.T'
+ 'Schneider.Xd.27' 'Schneider.Xd.13' 'Schneider.Xd.1' 'Schneider.Xd.19'
+ 'Schneider.Xd.6' 'Grantham.Xd.29' 'Schneider.Xr.H' 'Schneider.Xr.F'
+ 'Schneider.Xd.29' 'Schneider.Xr.K' 'Schneider.Xd.11' 'Grantham.Xd.10'
+ 'Schneider.Xr.N' 'Schneider.Xd.20' 'Schneider.Xd.10' 'Schneider.Xd.9'
+ 'Schneider.Xd.21' 'Grantham.Xr.V' 'Grantham.Xr.F' 'Schneider.Xd.17'
+ 'Grantham.Xr.A' 'Schneider.Xr.D' 'Grantham.Xr.S' 'Grantham.Xr.T'
+ 'Grantham.Xd.28' 'Grantham.Xr.Q' 'Grantham.Xd.16' 'Schneider.Xd.30'
+ 'Grantham.Xr.L' 'Schneider.Xr.V' 'Grantham.Xd.7' 'Grantham.Xr.M'
+ 'Schneider.Xr.E' 'Grantham.Xr.R' 'Grantham.Xd.23' 'Grantham.Xr.D'
+ 'Grantham.Xd.3' 'Schneider.Xr.R' 'Grantham.Xd.25' 'Grantham.Xr.K'
+ 'Schneider.Xd.26' 'Grantham.Xd.30' 'Schneider.Xd.18' 'Schneider.Xr.L'
+ 'Schneider.Xd.23' 'Grantham.Xr.N' 'Grantham.Xr.W' 'Grantham.Xd.9'
+ 'Schneider.Xd.28' 'Schneider.Xd.5' 'Grantham.Xr.C' 'Grantham.Xr.P'
+ 'Grantham.Xd.1' 'Grantham.Xd.4' 'Grantham.Xd.12' 'Grantham.Xd.24'
+ 'Schneider.Xd.16' 'Grantham.Xr.I' 'Schneider.Xd.7' 'Schneider.Xr.C'
+ 'Grantham.Xd.6' 'Grantham.Xd.17' 'Schneider.Xd.4' 'Schneider.Xd.22'
+ 'Schneider.Xr.G' 'Schneider.Xd.14' 'Schneider.Xd.8' 'Grantham.Xd.20'
+ 'Grantham.Xd.11' 'Grantham.Xd.26' 'Grantham.Xd.18' 'Grantham.Xd.14'
+ 'Grantham.Xr.H' 'Grantham.Xd.13' 'Grantham.Xd.5' 'Schneider.Xd.2'
+ 'Grantham.Xd.21' 'Schneider.Xd.12' 'Schneider.Xd.3' 'Grantham.Xd.2'
+ 'Grantham.Xd.15' 'Grantham.Xr.G' 'Grantham.Xr.Y' 'Schneider.Xd.25'
+ 'Grantham.Xd.27' 'Grantham.Xd.19' 'Grantham.Xd.8' 'Schneider.Xd.15'],length = 100
+[2020-04-03 15:32:32,097]: -----------
+[2020-04-03 15:32:32,582]: f1 =0.5454 
+[2020-04-03 15:32:32,583]: accuarcy = 0.5455 
+[2020-04-03 15:32:32,584]: precision =0.5576 
+[2020-04-03 15:32:32,585]: recall =0.5455
+[2020-04-03 15:32:32,588]: auc = 0.6539
+[2020-04-03 15:32:32,612]: -----------
+[2020-04-03 15:32:32,613]: The output by the terminal's log has been saved in the /home/heshida/work/FMRMD2.0/Logs/202004031531.log.
+[2020-04-03 15:32:32,613]: metrics have been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.metrics.csv.
+[2020-04-03 15:32:33,461]: Scatter charts visualized by t-SNE dataset has been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.fasta.out.csv.png.
+[2020-04-03 15:32:33,461]: Reduced dimensional dataset has been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.result.csv.
+[2020-04-03 15:32:33,461]: ---mrmd 2.0 end---

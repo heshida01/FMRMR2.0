@@ -1,0 +1,290 @@
+[2020-04-03 14:58:35,733]: ---mrmd 2.0 start----
+[2020-04-03 14:58:53,917]: ANOVA start...
+[2020-04-03 14:58:53,931]: ANOVA end.
+[2020-04-03 14:58:53,931]: mic start...
+[2020-04-03 14:58:54,327]: mic end.
+[2020-04-03 14:58:54,327]: mrmd start...
+[2020-04-03 14:58:54,727]: mrmd end.
+[2020-04-03 14:58:54,727]: mRMR start...
+[2020-04-03 14:59:24,917]: mRMR end.
+[2020-04-03 14:59:24,918]: lasso start...
+[2020-04-03 14:59:25,026]: lasso end.
+[2020-04-03 14:59:25,026]: chi2 start...
+[2020-04-03 14:59:25,102]: chi2 end.
+[2020-04-03 14:59:25,103]: ref start...
+[2020-04-03 14:59:32,417]: ref end.
+[2020-04-03 14:59:32,422]: rank start ...
+[2020-04-03 14:59:32,445]: The final  rank is
+[2020-04-03 14:59:32,445]: solventaccess.1.residue25 : 0.0062
+[2020-04-03 14:59:32,445]: hydrophobicity_FASG890101.1.residue0 : 0.0061
+[2020-04-03 14:59:32,445]: polarizability.1.residue25 : 0.0061
+[2020-04-03 14:59:32,445]: polarizability.2.residue25 : 0.0060
+[2020-04-03 14:59:32,445]: secondarystruct.3.residue0 : 0.0059
+[2020-04-03 14:59:32,445]: hydrophobicity_FASG890101.2.residue100 : 0.0059
+[2020-04-03 14:59:32,445]: hydrophobicity_FASG890101.3.residue50 : 0.0059
+[2020-04-03 14:59:32,446]: secondarystruct.2.residue50 : 0.0059
+[2020-04-03 14:59:32,446]: hydrophobicity_ARGP820101.1.residue50 : 0.0058
+[2020-04-03 14:59:32,446]: secondarystruct.2.residue25 : 0.0058
+[2020-04-03 14:59:32,446]: hydrophobicity_PRAM900101.3.residue75 : 0.0058
+[2020-04-03 14:59:32,446]: polarity.3.residue25 : 0.0057
+[2020-04-03 14:59:32,446]: hydrophobicity_ENGD860101.2.residue100 : 0.0057
+[2020-04-03 14:59:32,446]: hydrophobicity_PONP930101.2.residue100 : 0.0057
+[2020-04-03 14:59:32,446]: hydrophobicity_CASG920101.3.residue0 : 0.0057
+[2020-04-03 14:59:32,446]: hydrophobicity_ENGD860101.3.residue100 : 0.0057
+[2020-04-03 14:59:32,446]: hydrophobicity_ENGD860101.3.residue25 : 0.0057
+[2020-04-03 14:59:32,446]: hydrophobicity_CASG920101.1.residue25 : 0.0057
+[2020-04-03 14:59:32,446]: polarizability.2.residue75 : 0.0057
+[2020-04-03 14:59:32,446]: solventaccess.2.residue50 : 0.0057
+[2020-04-03 14:59:32,446]: hydrophobicity_PRAM900101.2.residue25 : 0.0057
+[2020-04-03 14:59:32,446]: hydrophobicity_ENGD860101.2.residue25 : 0.0056
+[2020-04-03 14:59:32,446]: hydrophobicity_FASG890101.2.residue50 : 0.0056
+[2020-04-03 14:59:32,446]: polarity.1.residue75 : 0.0056
+[2020-04-03 14:59:32,446]: secondarystruct.1.residue100 : 0.0056
+[2020-04-03 14:59:32,446]: hydrophobicity_CASG920101.2.residue75 : 0.0056
+[2020-04-03 14:59:32,447]: hydrophobicity_ARGP820101.3.residue50 : 0.0056
+[2020-04-03 14:59:32,447]: polarity.3.residue100 : 0.0056
+[2020-04-03 14:59:32,447]: solventaccess.2.residue75 : 0.0056
+[2020-04-03 14:59:32,447]: charge.1.residue75 : 0.0056
+[2020-04-03 14:59:32,447]: hydrophobicity_PONP930101.1.residue50 : 0.0056
+[2020-04-03 14:59:32,447]: polarity.2.residue25 : 0.0056
+[2020-04-03 14:59:32,447]: charge.3.residue25 : 0.0056
+[2020-04-03 14:59:32,447]: hydrophobicity_FASG890101.3.residue75 : 0.0056
+[2020-04-03 14:59:32,447]: polarity.3.residue0 : 0.0056
+[2020-04-03 14:59:32,447]: hydrophobicity_CASG920101.2.residue50 : 0.0056
+[2020-04-03 14:59:32,447]: hydrophobicity_ZIMJ680101.1.residue25 : 0.0056
+[2020-04-03 14:59:32,447]: hydrophobicity_ENGD860101.2.residue0 : 0.0056
+[2020-04-03 14:59:32,447]: hydrophobicity_ARGP820101.2.residue25 : 0.0056
+[2020-04-03 14:59:32,447]: hydrophobicity_FASG890101.3.residue25 : 0.0056
+[2020-04-03 14:59:32,447]: polarity.2.residue100 : 0.0056
+[2020-04-03 14:59:32,447]: polarizability.3.residue100 : 0.0056
+[2020-04-03 14:59:32,447]: hydrophobicity_ENGD860101.2.residue50 : 0.0056
+[2020-04-03 14:59:32,447]: secondarystruct.3.residue100 : 0.0056
+[2020-04-03 14:59:32,447]: hydrophobicity_ENGD860101.1.residue25 : 0.0056
+[2020-04-03 14:59:32,448]: polarizability.1.residue75 : 0.0056
+[2020-04-03 14:59:32,448]: hydrophobicity_FASG890101.1.residue50 : 0.0055
+[2020-04-03 14:59:32,448]: charge.2.residue75 : 0.0055
+[2020-04-03 14:59:32,448]: solventaccess.2.residue100 : 0.0055
+[2020-04-03 14:59:32,448]: polarizability.2.residue100 : 0.0055
+[2020-04-03 14:59:32,448]: secondarystruct.3.residue50 : 0.0055
+[2020-04-03 14:59:32,448]: hydrophobicity_ZIMJ680101.3.residue75 : 0.0055
+[2020-04-03 14:59:32,448]: hydrophobicity_CASG920101.1.residue75 : 0.0055
+[2020-04-03 14:59:32,448]: normwaalsvolume.1.residue75 : 0.0055
+[2020-04-03 14:59:32,448]: hydrophobicity_ARGP820101.3.residue0 : 0.0055
+[2020-04-03 14:59:32,448]: hydrophobicity_ENGD860101.1.residue50 : 0.0055
+[2020-04-03 14:59:32,448]: solventaccess.1.residue100 : 0.0055
+[2020-04-03 14:59:32,448]: hydrophobicity_PONP930101.2.residue0 : 0.0055
+[2020-04-03 14:59:32,448]: hydrophobicity_PONP930101.1.residue75 : 0.0055
+[2020-04-03 14:59:32,448]: hydrophobicity_ENGD860101.1.residue0 : 0.0055
+[2020-04-03 14:59:32,448]: polarity.2.residue75 : 0.0054
+[2020-04-03 14:59:32,448]: normwaalsvolume.2.residue100 : 0.0054
+[2020-04-03 14:59:32,448]: solventaccess.2.residue0 : 0.0054
+[2020-04-03 14:59:32,449]: charge.1.residue50 : 0.0054
+[2020-04-03 14:59:32,449]: charge.1.residue25 : 0.0054
+[2020-04-03 14:59:32,449]: charge.2.residue100 : 0.0054
+[2020-04-03 14:59:32,449]: polarizability.1.residue0 : 0.0054
+[2020-04-03 14:59:32,449]: hydrophobicity_CASG920101.3.residue50 : 0.0054
+[2020-04-03 14:59:32,449]: normwaalsvolume.1.residue25 : 0.0054
+[2020-04-03 14:59:32,449]: solventaccess.1.residue50 : 0.0054
+[2020-04-03 14:59:32,449]: hydrophobicity_ARGP820101.3.residue75 : 0.0054
+[2020-04-03 14:59:32,449]: polarizability.2.residue50 : 0.0054
+[2020-04-03 14:59:32,449]: secondarystruct.1.residue25 : 0.0054
+[2020-04-03 14:59:32,449]: charge.3.residue100 : 0.0054
+[2020-04-03 14:59:32,449]: secondarystruct.1.residue50 : 0.0054
+[2020-04-03 14:59:32,449]: hydrophobicity_FASG890101.2.residue75 : 0.0054
+[2020-04-03 14:59:32,449]: hydrophobicity_FASG890101.1.residue75 : 0.0054
+[2020-04-03 14:59:32,449]: hydrophobicity_FASG890101.3.residue100 : 0.0054
+[2020-04-03 14:59:32,449]: solventaccess.3.residue25 : 0.0054
+[2020-04-03 14:59:32,449]: polarity.1.residue100 : 0.0054
+[2020-04-03 14:59:32,449]: charge.2.residue25 : 0.0053
+[2020-04-03 14:59:32,449]: hydrophobicity_CASG920101.2.residue25 : 0.0053
+[2020-04-03 14:59:32,450]: hydrophobicity_FASG890101.2.residue0 : 0.0053
+[2020-04-03 14:59:32,450]: normwaalsvolume.2.residue50 : 0.0053
+[2020-04-03 14:59:32,450]: hydrophobicity_CASG920101.1.residue0 : 0.0053
+[2020-04-03 14:59:32,450]: hydrophobicity_ARGP820101.1.residue0 : 0.0053
+[2020-04-03 14:59:32,450]: charge.3.residue50 : 0.0053
+[2020-04-03 14:59:32,450]: solventaccess.1.residue0 : 0.0053
+[2020-04-03 14:59:32,450]: hydrophobicity_CASG920101.3.residue75 : 0.0053
+[2020-04-03 14:59:32,450]: hydrophobicity_ZIMJ680101.3.residue0 : 0.0053
+[2020-04-03 14:59:32,450]: solventaccess.1.residue75 : 0.0053
+[2020-04-03 14:59:32,450]: solventaccess.3.residue100 : 0.0053
+[2020-04-03 14:59:32,450]: hydrophobicity_ZIMJ680101.1.residue100 : 0.0053
+[2020-04-03 14:59:32,450]: normwaalsvolume.1.residue50 : 0.0053
+[2020-04-03 14:59:32,450]: polarity.1.residue50 : 0.0053
+[2020-04-03 14:59:32,450]: hydrophobicity_ENGD860101.1.residue75 : 0.0053
+[2020-04-03 14:59:32,450]: solventaccess.3.residue50 : 0.0053
+[2020-04-03 14:59:32,450]: hydrophobicity_PRAM900101.2.residue0 : 0.0053
+[2020-04-03 14:59:32,450]: hydrophobicity_PRAM900101.3.residue25 : 0.0053
+[2020-04-03 14:59:32,450]: hydrophobicity_ZIMJ680101.1.residue0 : 0.0053
+[2020-04-03 14:59:32,450]: polarity.3.residue50 : 0.0053
+[2020-04-03 14:59:32,451]: hydrophobicity_ZIMJ680101.2.residue75 : 0.0053
+[2020-04-03 14:59:32,451]: polarity.2.residue50 : 0.0053
+[2020-04-03 14:59:32,451]: hydrophobicity_ARGP820101.1.residue75 : 0.0053
+[2020-04-03 14:59:32,451]: hydrophobicity_PONP930101.1.residue25 : 0.0052
+[2020-04-03 14:59:32,451]: hydrophobicity_PRAM900101.2.residue75 : 0.0052
+[2020-04-03 14:59:32,451]: normwaalsvolume.2.residue25 : 0.0052
+[2020-04-03 14:59:32,451]: hydrophobicity_CASG920101.2.residue100 : 0.0052
+[2020-04-03 14:59:32,451]: secondarystruct.2.residue0 : 0.0052
+[2020-04-03 14:59:32,451]: hydrophobicity_CASG920101.3.residue100 : 0.0052
+[2020-04-03 14:59:32,451]: hydrophobicity_ARGP820101.3.residue25 : 0.0052
+[2020-04-03 14:59:32,451]: secondarystruct.1.residue75 : 0.0052
+[2020-04-03 14:59:32,451]: hydrophobicity_ZIMJ680101.1.residue50 : 0.0052
+[2020-04-03 14:59:32,451]: hydrophobicity_PONP930101.1.residue0 : 0.0052
+[2020-04-03 14:59:32,451]: charge.1.residue100 : 0.0052
+[2020-04-03 14:59:32,451]: polarity.3.residue75 : 0.0052
+[2020-04-03 14:59:32,451]: polarizability.3.residue50 : 0.0052
+[2020-04-03 14:59:32,451]: polarity.1.residue25 : 0.0052
+[2020-04-03 14:59:32,451]: hydrophobicity_PONP930101.2.residue50 : 0.0052
+[2020-04-03 14:59:32,451]: hydrophobicity_ZIMJ680101.3.residue25 : 0.0052
+[2020-04-03 14:59:32,452]: normwaalsvolume.2.residue75 : 0.0052
+[2020-04-03 14:59:32,452]: polarizability.1.residue50 : 0.0052
+[2020-04-03 14:59:32,452]: hydrophobicity_ARGP820101.1.residue100 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_ARGP820101.2.residue100 : 0.0051
+[2020-04-03 14:59:32,452]: solventaccess.2.residue25 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_ENGD860101.3.residue50 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_ENGD860101.3.residue75 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_ZIMJ680101.2.residue100 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_ZIMJ680101.2.residue50 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_PONP930101.1.residue100 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_ZIMJ680101.2.residue25 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_ZIMJ680101.1.residue75 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_ENGD860101.1.residue100 : 0.0051
+[2020-04-03 14:59:32,452]: secondarystruct.3.residue75 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_FASG890101.2.residue25 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_PRAM900101.3.residue50 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_PONP930101.2.residue75 : 0.0051
+[2020-04-03 14:59:32,452]: hydrophobicity_FASG890101.1.residue25 : 0.0051
+[2020-04-03 14:59:32,453]: charge.1.residue0 : 0.0051
+[2020-04-03 14:59:32,453]: secondarystruct.2.residue75 : 0.0050
+[2020-04-03 14:59:32,453]: polarizability.3.residue25 : 0.0050
+[2020-04-03 14:59:32,453]: hydrophobicity_ARGP820101.2.residue75 : 0.0050
+[2020-04-03 14:59:32,453]: charge.3.residue75 : 0.0050
+[2020-04-03 14:59:32,453]: hydrophobicity_PONP930101.2.residue25 : 0.0050
+[2020-04-03 14:59:32,453]: hydrophobicity_PRAM900101.2.residue100 : 0.0050
+[2020-04-03 14:59:32,453]: hydrophobicity_ARGP820101.2.residue50 : 0.0050
+[2020-04-03 14:59:32,453]: hydrophobicity_ARGP820101.1.residue25 : 0.0050
+[2020-04-03 14:59:32,453]: charge.2.residue50 : 0.0049
+[2020-04-03 14:59:32,453]: secondarystruct.3.residue25 : 0.0049
+[2020-04-03 14:59:32,453]: normwaalsvolume.1.residue100 : 0.0049
+[2020-04-03 14:59:32,453]: charge.3.residue0 : 0.0049
+[2020-04-03 14:59:32,453]: hydrophobicity_CASG920101.1.residue50 : 0.0049
+[2020-04-03 14:59:32,453]: polarity.2.residue0 : 0.0049
+[2020-04-03 14:59:32,453]: normwaalsvolume.2.residue0 : 0.0049
+[2020-04-03 14:59:32,453]: solventaccess.3.residue0 : 0.0048
+[2020-04-03 14:59:32,453]: polarizability.2.residue0 : 0.0048
+[2020-04-03 14:59:32,453]: polarizability.1.residue100 : 0.0048
+[2020-04-03 14:59:32,454]: hydrophobicity_PRAM900101.2.residue50 : 0.0047
+[2020-04-03 14:59:32,454]: secondarystruct.2.residue100 : 0.0047
+[2020-04-03 14:59:32,454]: hydrophobicity_ENGD860101.2.residue75 : 0.0047
+[2020-04-03 14:59:32,454]: hydrophobicity_CASG920101.1.residue100 : 0.0047
+[2020-04-03 14:59:32,454]: hydrophobicity_FASG890101.1.residue100 : 0.0047
+[2020-04-03 14:59:32,454]: normwaalsvolume.3.residue25 : 0.0047
+[2020-04-03 14:59:32,454]: hydrophobicity_PONP930101.3.residue75 : 0.0046
+[2020-04-03 14:59:32,454]: hydrophobicity_CASG920101.3.residue25 : 0.0046
+[2020-04-03 14:59:32,454]: hydrophobicity_ZIMJ680101.3.residue100 : 0.0046
+[2020-04-03 14:59:32,454]: hydrophobicity_PONP930101.3.residue25 : 0.0046
+[2020-04-03 14:59:32,454]: solventaccess.3.residue75 : 0.0046
+[2020-04-03 14:59:32,454]: hydrophobicity_ZIMJ680101.3.residue50 : 0.0044
+[2020-04-03 14:59:32,454]: secondarystruct.1.residue0 : 0.0044
+[2020-04-03 14:59:32,454]: normwaalsvolume.1.residue0 : 0.0044
+[2020-04-03 14:59:32,454]: normwaalsvolume.3.residue50 : 0.0044
+[2020-04-03 14:59:32,454]: hydrophobicity_PRAM900101.1.residue0 : 0.0044
+[2020-04-03 14:59:32,454]: hydrophobicity_PRAM900101.1.residue50 : 0.0044
+[2020-04-03 14:59:32,454]: normwaalsvolume.3.residue100 : 0.0043
+[2020-04-03 14:59:32,454]: hydrophobicity_PRAM900101.3.residue100 : 0.0043
+[2020-04-03 14:59:32,455]: hydrophobicity_ARGP820101.3.residue100 : 0.0043
+[2020-04-03 14:59:32,455]: hydrophobicity_PRAM900101.1.residue100 : 0.0042
+[2020-04-03 14:59:32,455]: hydrophobicity_PONP930101.3.residue100 : 0.0042
+[2020-04-03 14:59:32,455]: hydrophobicity_PRAM900101.1.residue75 : 0.0042
+[2020-04-03 14:59:32,455]: hydrophobicity_PRAM900101.1.residue25 : 0.0041
+[2020-04-03 14:59:32,455]: hydrophobicity_PONP930101.3.residue50 : 0.0041
+[2020-04-03 14:59:32,455]: normwaalsvolume.3.residue75 : 0.0041
+[2020-04-03 14:59:32,455]: polarity.1.residue0 : 0.0041
+[2020-04-03 14:59:32,455]: polarizability.3.residue0 : 0.0041
+[2020-04-03 14:59:32,455]: hydrophobicity_PRAM900101.3.residue0 : 0.0040
+[2020-04-03 14:59:32,455]: hydrophobicity_ENGD860101.3.residue0 : 0.0038
+[2020-04-03 14:59:32,455]: polarizability.3.residue75 : 0.0038
+[2020-04-03 14:59:32,455]: hydrophobicity_ARGP820101.2.residue0 : 0.0037
+[2020-04-03 14:59:32,455]: normwaalsvolume.3.residue0 : 0.0035
+[2020-04-03 14:59:32,455]: charge.2.residue0 : 0.0032
+[2020-04-03 14:59:32,455]: hydrophobicity_FASG890101.3.residue0 : 0.0032
+[2020-04-03 14:59:32,455]: hydrophobicity_ZIMJ680101.2.residue0 : 0.0030
+[2020-04-03 14:59:32,455]: hydrophobicity_PONP930101.3.residue0 : 0.0027
+[2020-04-03 14:59:32,455]: hydrophobicity_CASG920101.2.residue0 : 0.0025
+[2020-04-03 14:59:32,456]: feature_rank end
+[2020-04-03 14:59:32,506]: Start dimension reduction ...
+[2020-04-03 14:59:33,552]: length=1 f1=0.4028 accuarcy=0.4050 precision=0.4038 recall=0.4050 auc=0.5530 
+[2020-04-03 14:59:34,089]: length=101 f1=0.5696 accuarcy=0.5702 precision=0.5693 recall=0.5702 auc=0.6795 
+[2020-04-03 14:59:34,566]: length=195 f1=0.5432 accuarcy=0.5455 precision=0.5422 recall=0.5455 auc=0.6598 
+[2020-04-03 14:59:34,566]: ----------
+[2020-04-03 14:59:34,566]: the max f1 = 0.5696
+[2020-04-03 14:59:34,567]: ['solventaccess.1.residue25' 'hydrophobicity_FASG890101.1.residue0'
+ 'polarizability.1.residue25' 'polarizability.2.residue25'
+ 'secondarystruct.3.residue0' 'hydrophobicity_FASG890101.2.residue100'
+ 'hydrophobicity_FASG890101.3.residue50' 'secondarystruct.2.residue50'
+ 'hydrophobicity_ARGP820101.1.residue50' 'secondarystruct.2.residue25'
+ 'hydrophobicity_PRAM900101.3.residue75' 'polarity.3.residue25'
+ 'hydrophobicity_ENGD860101.2.residue100'
+ 'hydrophobicity_PONP930101.2.residue100'
+ 'hydrophobicity_CASG920101.3.residue0'
+ 'hydrophobicity_ENGD860101.3.residue100'
+ 'hydrophobicity_ENGD860101.3.residue25'
+ 'hydrophobicity_CASG920101.1.residue25' 'polarizability.2.residue75'
+ 'solventaccess.2.residue50' 'hydrophobicity_PRAM900101.2.residue25'
+ 'hydrophobicity_ENGD860101.2.residue25'
+ 'hydrophobicity_FASG890101.2.residue50' 'polarity.1.residue75'
+ 'secondarystruct.1.residue100' 'hydrophobicity_CASG920101.2.residue75'
+ 'hydrophobicity_ARGP820101.3.residue50' 'polarity.3.residue100'
+ 'solventaccess.2.residue75' 'charge.1.residue75'
+ 'hydrophobicity_PONP930101.1.residue50' 'polarity.2.residue25'
+ 'charge.3.residue25' 'hydrophobicity_FASG890101.3.residue75'
+ 'polarity.3.residue0' 'hydrophobicity_CASG920101.2.residue50'
+ 'hydrophobicity_ZIMJ680101.1.residue25'
+ 'hydrophobicity_ENGD860101.2.residue0'
+ 'hydrophobicity_ARGP820101.2.residue25'
+ 'hydrophobicity_FASG890101.3.residue25' 'polarity.2.residue100'
+ 'polarizability.3.residue100' 'hydrophobicity_ENGD860101.2.residue50'
+ 'secondarystruct.3.residue100' 'hydrophobicity_ENGD860101.1.residue25'
+ 'polarizability.1.residue75' 'hydrophobicity_FASG890101.1.residue50'
+ 'charge.2.residue75' 'solventaccess.2.residue100'
+ 'polarizability.2.residue100' 'secondarystruct.3.residue50'
+ 'hydrophobicity_ZIMJ680101.3.residue75'
+ 'hydrophobicity_CASG920101.1.residue75' 'normwaalsvolume.1.residue75'
+ 'hydrophobicity_ARGP820101.3.residue0'
+ 'hydrophobicity_ENGD860101.1.residue50' 'solventaccess.1.residue100'
+ 'hydrophobicity_PONP930101.2.residue0'
+ 'hydrophobicity_PONP930101.1.residue75'
+ 'hydrophobicity_ENGD860101.1.residue0' 'polarity.2.residue75'
+ 'normwaalsvolume.2.residue100' 'solventaccess.2.residue0'
+ 'charge.1.residue50' 'charge.1.residue25' 'charge.2.residue100'
+ 'polarizability.1.residue0' 'hydrophobicity_CASG920101.3.residue50'
+ 'normwaalsvolume.1.residue25' 'solventaccess.1.residue50'
+ 'hydrophobicity_ARGP820101.3.residue75' 'polarizability.2.residue50'
+ 'secondarystruct.1.residue25' 'charge.3.residue100'
+ 'secondarystruct.1.residue50' 'hydrophobicity_FASG890101.2.residue75'
+ 'hydrophobicity_FASG890101.1.residue75'
+ 'hydrophobicity_FASG890101.3.residue100' 'solventaccess.3.residue25'
+ 'polarity.1.residue100' 'charge.2.residue25'
+ 'hydrophobicity_CASG920101.2.residue25'
+ 'hydrophobicity_FASG890101.2.residue0' 'normwaalsvolume.2.residue50'
+ 'hydrophobicity_CASG920101.1.residue0'
+ 'hydrophobicity_ARGP820101.1.residue0' 'charge.3.residue50'
+ 'solventaccess.1.residue0' 'hydrophobicity_CASG920101.3.residue75'
+ 'hydrophobicity_ZIMJ680101.3.residue0' 'solventaccess.1.residue75'
+ 'solventaccess.3.residue100' 'hydrophobicity_ZIMJ680101.1.residue100'
+ 'normwaalsvolume.1.residue50' 'polarity.1.residue50'
+ 'hydrophobicity_ENGD860101.1.residue75' 'solventaccess.3.residue50'
+ 'hydrophobicity_PRAM900101.2.residue0'
+ 'hydrophobicity_PRAM900101.3.residue25'
+ 'hydrophobicity_ZIMJ680101.1.residue0' 'polarity.3.residue50'],length = 101
+[2020-04-03 14:59:34,567]: -----------
+[2020-04-03 14:59:34,762]: f1 =0.5696 
+[2020-04-03 14:59:34,762]: accuarcy = 0.5702 
+[2020-04-03 14:59:34,764]: precision =0.5693 
+[2020-04-03 14:59:34,766]: recall =0.5702
+[2020-04-03 14:59:34,771]: auc = 0.6795
+[2020-04-03 14:59:34,786]: -----------
+[2020-04-03 14:59:34,786]: The output by the terminal's log has been saved in the /home/heshida/work/FMRMD2.0/Logs/202004031458.log.
+[2020-04-03 14:59:34,786]: metrics have been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.metrics.csv.
+[2020-04-03 14:59:35,618]: Scatter charts visualized by t-SNE dataset has been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.fasta.out.csv.png.
+[2020-04-03 14:59:35,618]: Reduced dimensional dataset has been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.result.csv.
+[2020-04-03 14:59:35,618]: ---mrmd 2.0 end---

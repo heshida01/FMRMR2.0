@@ -23,15 +23,16 @@ def combine_pos_neg(pos_out,neg_out):
 
 def Process_iFeature_out_PSeInOne(file,inputfile_label_len):
     df = pd.read_table(file,engine='python',header=None)
+    #print(df.head())
     df.drop(df.columns[[0]], axis=1, inplace=True)
     df.rename(columns={x: f"fea{x}" for x in range(len(df.columns))}, inplace=True)
     labels = []
     for key in inputfile_label_len:
         labels.extend([int(key)]*inputfile_label_len[key])
 
-    print(labels)
-    print(len(labels))
-    print(len(df))
+    # print(labels)
+    # print(len(labels))
+    # print(len(df))
     df.insert(loc=0,column='class',value=labels)
 
 
@@ -48,9 +49,9 @@ def Process_iFeature_out(file,inputfile_label_len):
     for key in inputfile_label_len:
         labels.extend([int(key)]*inputfile_label_len[key])
 
-    print(labels)
-    print(len(labels))
-    print(len(df))
+    #print(labels)
+    #print(len(labels))
+    #print(len(df))
     df.insert(loc=0,column='class',value=labels)
 
 

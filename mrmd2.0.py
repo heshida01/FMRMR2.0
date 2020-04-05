@@ -77,7 +77,7 @@ class Dim_Rd(object):
         f1 = sklearn.metrics.f1_score(y, ypred, average='weighted')
         precision = sklearn.metrics.precision_score(self.y, ypred, average='weighted')
         recall = sklearn.metrics.recall_score(self.y, ypred, average='weighted')
-
+        acc = sklearn.metrics.accuracy_score(self.y, ypred)
         lb = LabelBinarizer()
         lb.fit(self.y)
 
@@ -85,7 +85,7 @@ class Dim_Rd(object):
         ypred = lb.transform(ypred)
         auc = sklearn.metrics.roc_auc_score(y, ypred)
 
-        acc = sklearn.metrics.accuracy_score(self.y, ypred)
+       
 
         return acc, f1, precision, recall, auc, ypred
 

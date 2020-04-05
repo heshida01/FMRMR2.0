@@ -15,7 +15,7 @@ from format import pos_neg2csv
 if __name__ == '__main__':
     args = parse_args()
 
-    combine_file = os.path.dirname(__file__) + os.sep + 'Temp' + os.sep
+    combine_file = os.path.dirname(os.path.abspath(__file__)) + os.sep + 'Temp' + os.sep
     samples_len = 0
     inputfile_label_len = OrderedDict()
     samples = []
@@ -35,21 +35,7 @@ if __name__ == '__main__':
     --InputFiles 1.positive.txt 0.negative.txt --FE_method iFeature.py --type AAC
     """
     if 'ifeature' in str(args.FE_method_file).lower():
-        combine_file = os.path.dirname(__file__) + os.sep + 'Temp' + os.sep
-        samples_len = 0
-        inputfile_label_len=OrderedDict()
-        samples = []
-        for inputfile in args.InputFiles:
-            samples += list(SeqIO.parse(inputfile, "fasta"))
-            samples_len += len(samples)
-            combine_file += f"{inputfile}."
-
-            label = os.path.basename(inputfile).split('.')[0]
-            
-            inputfile_label_len[label]=len(list(SeqIO.parse(inputfile, "fasta")))
-
-        combine_file = combine_file+'fasta'
-        SeqIO.write(samples, combine_file, "fasta")
+        #####if args.type
 
         # pog = list(SeqIO.parse(args.posFile, "fasta"))
         # pog_len = len(pog)
@@ -72,6 +58,9 @@ if __name__ == '__main__':
                                "show":args.show}
         notNull_parameters = ['--' + key + ' ' + ifeature_parameters[key] for key in ifeature_parameters if ifeature_parameters[key] != '' ]
         str_parameters = ' '.join(notNull_parameters)
+
+      
+
 
         ifeaturecmd = f"python iFeature/{args.FE_method_file} --file {combine_file} --out {combine_file}.out {str_parameters}"
         print(ifeaturecmd)
@@ -131,23 +120,37 @@ if __name__ == '__main__':
         #cmd = "python --posFile {} --negFile --sequenceType --method --K"
         ##posout1 = os.path.dirname(__file__)+os.sep+'Temp'+os.sep+args.posFile+str(uuid.uuid1())+'.out'
         ##negout2 = os.path.dirname(__file__)+os.sep+'Temp'+os.sep+args.negFile+str(uuid.uuid1())+'.out'
-        combine_file_out = os.path.dirname(__file__)+os.sep+'Temp'+os.sep+os.path.basename(combine_file)+str(uuid.uuid1())+'.out'
+        #combine_file_out = os.path.dirname(__file__)+os.sep+'Temp'+os.sep+os.path.basename(combine_file)+str(uuid.uuid1())+'.out'
         ##poscmd1 = f"python {'PseinOne/'+args.FE_method_file} {args.posFile} {posout1}  {args.sequenceType} {args.method}  {str_parameters}"
         ##negcmd2 = f"python {'PseinOne/'+args.FE_method_file} {args.negFile} {negout2}  {args.sequenceType} {args.method}  {str_parameters}"
-        combine_file_cmd = f"python {'PseinOne/'+args.FE_method_file} {combine_file}  {combine_file_out} {args.sequenceType} {args.method}  {str_parameters} "
-        print(str_parameters,args.method)
+        combine_file_cmd = f"python {'PseinOne/'+args.FE_method_file} {combine_file}  {combine_file}.out {args.sequenceType} {args.method}  {str_parameters} "
+        #print(str_parameters,args.method)
         # #print(poscmd1)
         # #sp1 = subprocess.Popen(poscmd1.split(), universal_newlines=True,stdout=subprocess.PIPE)
         # #sp1.communicate()
         # #print(negcmd2)
         # #sp2 = subprocess.Popen(negcmd2.split(), universal_newlines=True,stdout=subprocess.PIPE)
         # #sp2.communicate()
+        print()
+        print('PseinOon2.0 start...')
         print(combine_file_cmd)
         sp1 = subprocess.Popen(combine_file_cmd.split(), universal_newlines=True, stdout=subprocess.PIPE)
 
+        while sp1.poll() is None:
+            line = str(sp1.stdout.readline()).strip()
+            if 'Traceback' in line:
+                print('#############')
+                import sys
+                sys.exit()
+            if line == '':
+                break
+            print(line+'\r')
+
+        print('PseinOon2.0 end')
+        print()
         #inputcsv,_df = pos_neg2csv.combine_pos_neg(combine_file_out)
         _, inputcsv = pos_neg2csv.Process_iFeature_out_PSeInOne(combine_file + '.out', inputfile_label_len)
-        print(inputcsv)
+
 
 
         #metricfile = ''.join(map(str,args.posFile.split('.')[:-1]))+'_'+''.join(map(str,args.negFile.split('.')[:-1]))+'.metrics.csv'
@@ -168,5 +171,5 @@ if __name__ == '__main__':
 
     print('exit')
 
-
+    
 

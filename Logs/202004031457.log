@@ -1,0 +1,90 @@
+[2020-04-03 14:57:32,176]: ---mrmd 2.0 start----
+[2020-04-03 14:57:51,454]: ANOVA start...
+[2020-04-03 14:57:51,457]: ANOVA end.
+[2020-04-03 14:57:51,457]: mic start...
+[2020-04-03 14:57:51,627]: mic end.
+[2020-04-03 14:57:51,628]: mrmd start...
+[2020-04-03 14:57:51,665]: mrmd end.
+[2020-04-03 14:57:51,665]: mRMR start...
+[2020-04-03 14:57:51,746]: mRMR end.
+[2020-04-03 14:57:51,747]: lasso start...
+[2020-04-03 14:57:51,769]: lasso end.
+[2020-04-03 14:57:51,769]: chi2 start...
+[2020-04-03 14:57:51,781]: chi2 end.
+[2020-04-03 14:57:51,781]: ref start...
+[2020-04-03 14:57:52,048]: ref end.
+[2020-04-03 14:57:52,049]: rank start ...
+[2020-04-03 14:57:52,051]: The final  rank is
+[2020-04-03 14:57:52,052]: hydrophobicity_ENGD860101.G1 : 0.0319
+[2020-04-03 14:57:52,052]: polarizability.G1 : 0.0318
+[2020-04-03 14:57:52,052]: hydrophobicity_ARGP820101.G3 : 0.0308
+[2020-04-03 14:57:52,052]: secondarystruct.G2 : 0.0308
+[2020-04-03 14:57:52,052]: polarity.G1 : 0.0304
+[2020-04-03 14:57:52,052]: charge.G3 : 0.0302
+[2020-04-03 14:57:52,052]: hydrophobicity_CASG920101.G1 : 0.0301
+[2020-04-03 14:57:52,052]: solventaccess.G2 : 0.0300
+[2020-04-03 14:57:52,052]: secondarystruct.G3 : 0.0297
+[2020-04-03 14:57:52,052]: hydrophobicity_PONP930101.G2 : 0.0297
+[2020-04-03 14:57:52,052]: hydrophobicity_PONP930101.G1 : 0.0287
+[2020-04-03 14:57:52,052]: charge.G2 : 0.0284
+[2020-04-03 14:57:52,052]: hydrophobicity_ZIMJ680101.G3 : 0.0281
+[2020-04-03 14:57:52,052]: solventaccess.G3 : 0.0278
+[2020-04-03 14:57:52,052]: hydrophobicity_ZIMJ680101.G2 : 0.0276
+[2020-04-03 14:57:52,052]: normwaalsvolume.G2 : 0.0276
+[2020-04-03 14:57:52,053]: hydrophobicity_ENGD860101.G2 : 0.0272
+[2020-04-03 14:57:52,053]: hydrophobicity_ENGD860101.G3 : 0.0269
+[2020-04-03 14:57:52,053]: secondarystruct.G1 : 0.0266
+[2020-04-03 14:57:52,053]: hydrophobicity_CASG920101.G3 : 0.0260
+[2020-04-03 14:57:52,053]: hydrophobicity_ZIMJ680101.G1 : 0.0259
+[2020-04-03 14:57:52,053]: hydrophobicity_FASG890101.G3 : 0.0257
+[2020-04-03 14:57:52,053]: hydrophobicity_FASG890101.G1 : 0.0256
+[2020-04-03 14:57:52,053]: normwaalsvolume.G1 : 0.0248
+[2020-04-03 14:57:52,053]: solventaccess.G1 : 0.0248
+[2020-04-03 14:57:52,053]: hydrophobicity_PRAM900101.G2 : 0.0244
+[2020-04-03 14:57:52,053]: polarizability.G2 : 0.0243
+[2020-04-03 14:57:52,053]: hydrophobicity_PONP930101.G3 : 0.0229
+[2020-04-03 14:57:52,053]: hydrophobicity_ARGP820101.G2 : 0.0226
+[2020-04-03 14:57:52,053]: hydrophobicity_CASG920101.G2 : 0.0222
+[2020-04-03 14:57:52,053]: hydrophobicity_PRAM900101.G3 : 0.0218
+[2020-04-03 14:57:52,053]: hydrophobicity_FASG890101.G2 : 0.0214
+[2020-04-03 14:57:52,054]: charge.G1 : 0.0211
+[2020-04-03 14:57:52,054]: polarity.G2 : 0.0211
+[2020-04-03 14:57:52,054]: hydrophobicity_PRAM900101.G1 : 0.0205
+[2020-04-03 14:57:52,054]: normwaalsvolume.G3 : 0.0188
+[2020-04-03 14:57:52,054]: polarity.G3 : 0.0183
+[2020-04-03 14:57:52,054]: polarizability.G3 : 0.0180
+[2020-04-03 14:57:52,054]: hydrophobicity_ARGP820101.G1 : 0.0154
+[2020-04-03 14:57:52,054]: feature_rank end
+[2020-04-03 14:57:52,071]: Start dimension reduction ...
+[2020-04-03 14:57:53,119]: length=1 f1=0.3444 accuarcy=0.3471 precision=0.3434 recall=0.3471 auc=0.5095 
+[2020-04-03 14:57:53,639]: length=39 f1=0.4923 accuarcy=0.4959 precision=0.4902 recall=0.4959 auc=0.6260 
+[2020-04-03 14:57:53,639]: ----------
+[2020-04-03 14:57:53,639]: the max f1 = 0.4923
+[2020-04-03 14:57:53,640]: ['hydrophobicity_ENGD860101.G1' 'polarizability.G1'
+ 'hydrophobicity_ARGP820101.G3' 'secondarystruct.G2' 'polarity.G1'
+ 'charge.G3' 'hydrophobicity_CASG920101.G1' 'solventaccess.G2'
+ 'secondarystruct.G3' 'hydrophobicity_PONP930101.G2'
+ 'hydrophobicity_PONP930101.G1' 'charge.G2' 'hydrophobicity_ZIMJ680101.G3'
+ 'solventaccess.G3' 'hydrophobicity_ZIMJ680101.G2' 'normwaalsvolume.G2'
+ 'hydrophobicity_ENGD860101.G2' 'hydrophobicity_ENGD860101.G3'
+ 'secondarystruct.G1' 'hydrophobicity_CASG920101.G3'
+ 'hydrophobicity_ZIMJ680101.G1' 'hydrophobicity_FASG890101.G3'
+ 'hydrophobicity_FASG890101.G1' 'normwaalsvolume.G1' 'solventaccess.G1'
+ 'hydrophobicity_PRAM900101.G2' 'polarizability.G2'
+ 'hydrophobicity_PONP930101.G3' 'hydrophobicity_ARGP820101.G2'
+ 'hydrophobicity_CASG920101.G2' 'hydrophobicity_PRAM900101.G3'
+ 'hydrophobicity_FASG890101.G2' 'charge.G1' 'polarity.G2'
+ 'hydrophobicity_PRAM900101.G1' 'normwaalsvolume.G3' 'polarity.G3'
+ 'polarizability.G3' 'hydrophobicity_ARGP820101.G1'],length = 39
+[2020-04-03 14:57:53,640]: -----------
+[2020-04-03 14:57:54,096]: f1 =0.4923 
+[2020-04-03 14:57:54,097]: accuarcy = 0.4959 
+[2020-04-03 14:57:54,099]: precision =0.4902 
+[2020-04-03 14:57:54,101]: recall =0.4959
+[2020-04-03 14:57:54,106]: auc = 0.6260
+[2020-04-03 14:57:54,115]: -----------
+[2020-04-03 14:57:54,115]: The output by the terminal's log has been saved in the /home/heshida/work/FMRMD2.0/Logs/202004031457.log.
+[2020-04-03 14:57:54,115]: metrics have been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.metrics.csv.
+[2020-04-03 14:57:54,915]: Scatter charts visualized by t-SNE dataset has been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.fasta.out.csv.png.
+[2020-04-03 14:57:54,915]: Reduced dimensional dataset has been saved in the /home/heshida/work/FMRMD2.0/Results/1.pos.fasta.0.neg.fasta.2.med.fasta.result.csv.
+[2020-04-03 14:57:54,915]: ---mrmd 2.0 end---

@@ -139,7 +139,11 @@ def parse_args():
                                  'SOCNumber', 'QSOrder',
                                  'PAAC', 'APAAC',
                                  'KNNprotein', 'KNNpeptide',
-                                 'PSSM', 'SSEC', 'SSEB', 'Disorder', 'DisorderC', 'DisorderB', 'ASA', 'TA'
+                                 'PSSM', 'SSEC', 'SSEB', 'Disorder', 'DisorderC', 'DisorderB', 'ASA', 'TA',
+                                 ###iFeaturePseKRAAC
+                                 'type1', 'type2', 'type3A', 'type3B', 'type4', 'type5', 'type6A', 'type6B', 'type6C',
+                                 'type7', 'type8', 'type9', 'type10', 'type11', 'type12', 'type13', 'type14', 'type15',
+                                 'type16'
                                  ],
 
                         help="the encoding type")
@@ -160,8 +164,8 @@ def parse_args():
     ####iFeaturePseKRAAC.py
     parser.add_argument("--subtype", choices=['g-gap', 'lambda-correlation'],default='',
                         help="the subtype of the descriptor type, default is 'g-gap'")
-    parser.add_argument("--ktuple", choices=[1, 2, 3], default='',help="k-tuple peptide, default is 2", type=str)
-    parser.add_argument("--gap_lambda", choices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],default='',
+    parser.add_argument("--ktuple", choices=['1', '2', '3'], default='',help="k-tuple peptide, default is 2", type=str)
+    parser.add_argument("--gap_lambda", choices=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],default='',
                         help="the gap value or lambda value for the 'g-gap' model or 'lambda-correlation' model",
                         type=str)
     parser.add_argument("--raactype", default='',help="the reduced amino acids cluster type", type=str)

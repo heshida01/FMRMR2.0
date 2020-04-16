@@ -61,6 +61,15 @@ def Process_iFeature_out(file,inputfile_label_len):
     df.to_csv(savepath,index=None)
     return df,savepath
 
+def sc_process(combinefile,inputfiles):
+
+    with open(combinefile, 'w') as outfile:
+        for fname in inputfiles:
+            with open(fname) as infile:
+                for line in infile:
+                    outfile.write(line)
+
+                outfile.write('\n')
 if __name__ == '__main__':
 
     """    ####test combine_pos_neg

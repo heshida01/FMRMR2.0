@@ -11,41 +11,67 @@ We recommend using python3.6(support linux,windows).
   ##### note:
   If the installation of a Windows user's mine package fails, download the corresponding version of the WHL file from [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/) to install it.
   
- #### 2. usage:
+ #### 2. usage
+ 下面给出一些重要参数的使用说明，如需更多的参数设置可以参考iFeature和Pse-in-One2.0作者的文档，本程序的参数名字和原程序的名字基本一致。
+#### iFeature
+|参数|取值|
+|:-|:-|  
+|--Inputfile|文件名需指定标签，如0.example.fasta代表标签为0|    
+|--FE_method_file|['iFeature.py','iFeaturePseKRAAC.py']|   
 
- ```
- python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv
- ```
- 
-*note: The program can select a certain interval of the data set feature sequence for dimensionality reduction, so you need to select the specified parameter -s, -e. If you want to reduce the dimension of the entire data set, you only need to specify -s 1 , -e -1*
-
- * -i  the input dataset, supports csv,arff and libsvm 
- 
- * -s the location where the user specified interval begins （default 1）
- 
- * -e User-specified interval ending position （default -1）
- 
- * -l step length （default 1，Larger steps will execute faster, and smaller results will be better.）
- 
- * -o  Some indicators of the dimensionality reduction data set 
- 
- * -c  Dimensionalized data set 
- 
- The data output by the terminal can be found in the Logs directory. Please find the results in 'Results' folder. 
-
- #### 3. Example
- * Test.csv is a 150-dimensional dataSet
- * First select a dimension reduction interval (here from the first feature to the 150th feature, that is, the dimension reduction of the entire feature data set, of course, you can also choose one of the other continuous feature intervals)  
- * Step size is set to 1  
- 
+当type(使用iFeature.py)且取值['AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC']时进行数据处理的一些命令的样例：
 ```
-python3  mrmd2.0.py  -i test.csv -o metrics.csv  -c Dimensionalized_dataset.csv
-python3  mrmd2.0.py  -i test.arff -o metrics.csv  -c Dimensionalized_dataset.arff
-python3  mrmd2.0.py  -i test.libsvm -o metrics.csv  -c Dimensionalized_dataset.libsvm
+python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method iFeature.py --type AAC   
+python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method iFeature.py --type CKSAAP  
+python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py --type CTDC   
+python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py --type DPC  
+python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py --type DDE  
 ```
 
-#### 4. logs
-delete pymrmr  
-add rfe , chi2  
+当type(使用iFeaturePseKRAAC.py)且取值['type1', 'type2', 'type3A', 'type3B', 'type4', 'type5', 'type6A', 'type6B', 'type6C', 'type7', 'type8', 'type9', 'type10', 'type11', 'type12', 'type13', 'type14', 'type15','type16']时进行数据处理的命令的样例：
+
+```
+python FMRMD2.0.py  --InputFiles 1.sc.fasta 0.sc.fasta --FE_method_file iFeaturePseKRAAC.py --type type1 --subtype lambda-correlation --gap_lambda 2 --raactype 5
+```
+*****************************
+
+####Pse-in-One 2.0
+|参数|说明|
+|:-|:-|  
+|--Inputfile|文件名需指定标签，如0.example.fasta代表标签为0|    
+|--FE_method_file|取值['nac.py,acc.py,pse.py,sc.py]|   
+--sequeceType|取值['DNA','RNA','Protein']  
+--method|method参数较为复杂，下面以单独的表格给出：
+***************************
+|参数--method说明|取值|
+|:-|:-|  
+|使用nac.py,无需指定输入数据的类型|['kmer','mismatch','subsequence']|    
+|使用acc.py，输入数据为蛋白质序列|['AC', 'CC', 'ACC']|   
+使用acc.py，输入数据为RNA序列|['DAC', 'DCC', 'DACC', 'TAC', 'TCC', 'TACC', 'MAC', 'GAC', 'NMBAC']
+|使用acc.py，输入数据为DNA序列|['AC', 'CC', 'ACC']|  
+|使用pse.py，输入数据为蛋白质序列|['PC-PseAAC', 'PC-PseAAC-General', 'SC-PseAAC', 'SC-PseAAC-General']|   
+使用pse.py，输入数据为RNA序列|['PC-PseDNC-General', 'SC-PseDNC-General']  
+使用pse.py，输入数据为DNA序列| ['PseDNC', 'PseKNC', 'PC-PseDNC-General', 'SC-PseDNC-General', 'PC-PseTNC-General', 'SC-PseTNC-General']
+使用sc.py，输入数据为RNA序列| ['Triplet','PseSSC','PscDPC']  
+
+备注sc.py中蛋白质和DNA序列不能使用,并且格式比较特殊，数据格式可以参考experimental_data目录中提供的样例
+
+****************************
+使用Pse-in-One进行数据处理的一些命令的样例：
+   ```
+python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 3  
+python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method Mismatch     
+python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 53   
+python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file nac.py --sequenceType Protein --method kmer --k 3  
+python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method ACC  
+python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method AC  
+python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method CC 
+python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method DAC 
+python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method DACC  
+python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method MAC  
+python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method NMBAC  
+python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file pse.py --sequenceType RNA --method PC-PseDNC-General  
+   ```
+
 
 If you have any questions.please contact me (heshida@tju.edu.cn)

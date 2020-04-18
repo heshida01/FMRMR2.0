@@ -7,33 +7,31 @@
   pip3 install -r requirements.txt 
   ```
  
- #### 2. usage:
+ #### 2. 使用说明
+ 下面给出一些重要参数的使用说明，如需更多的参数设置可以参考iFeature和Pse-in-One2.0作者的文档，本程序的参数名字和原程序的名字基本一致。
+#### iFeature
+|参数|取值|
+|:-|:-|  
+|--Inputfile|文件名需指定标签，如0.example.fasta代表标签为0|    
+|--FE_method_file|['iFeature.py','iFeaturePseKRAAC.py']|   
 
- ```
- python3  mrmd2.0.py  -i input.csv -s start_index -e end_index -l Step_length  -o metrics.csv  -c Dimensionalized_dataset.csv.csv
- ```
-  程序可以选择数据集特征序列的某一区间进行降维，所以需要选择指定参数-s,-e，如果是对整个数据集进行降维，只需指定-s 1 ,-e -1 
-  
- * -i 输入的数据集，目前支持csv，arff,libsvm
- 
- * -s 用户指定的降维区间开始的位置（1是数据集的第一个特征的序号，不是0）
- 
- * -e 用户指定的降维区间结束的位置(-1代表最后一个特征的序号，也可以写实际的序号)
- 
- * -l 区间的步长（步长设置的大一点速度会快，小一点最后的结果会更好）
- 
- * -o 降维后数据集的一些指标
- 
- * -c 降维后的数据集
- 
- 终端输出的数据可以在Logs文件中查找，结果请在Results里面查找.
- 
- 用法
- * 使用pse in one 进行数据处理：
+当type(使用iFeature.py)且取值['AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC']时进行数据处理的一些命令的样例：
+```
+python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method iFeature.py --type AAC   
+python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method iFeature.py --type CKSAAP  
+python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py --type CTDC   
+python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py --type DPC  
+python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py --type DDE  
+```
 
+当type(使用iFeaturePseKRAAC.py)且取值['type1', 'type2', 'type3A', 'type3B', 'type4', 'type5', 'type6A', 'type6B', 'type6C', 'type7', 'type8', 'type9', 'type10', 'type11', 'type12', 'type13', 'type14', 'type15','type16']时进行数据处理的命令的样例：
+
+```
+python FMRMD2.0.py  --InputFiles 1.sc.fasta 0.sc.fasta --FE_method_file iFeaturePseKRAAC.py --type type1 --subtype lambda-correlation --gap_lambda 2 --raactype 5
+```
 *****************************
-### 参数设置
-Pse-in-One 2.0
+
+####Pse-in-One 2.0
 |参数|说明|
 |:-|:-|  
 |--Inputfile|文件名需指定标签，如0.example.fasta代表标签为0|    

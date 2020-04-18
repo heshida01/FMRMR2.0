@@ -38,7 +38,7 @@ Pse-in-One 2.0
 |:-|:-|  
 |--Inputfile|文件名需指定标签，如0.example.fasta代表标签为0|    
 |--FE_method_file|取值['nac.py,acc.py,pse.py,sc.py]|   
---sequeceType|取值['DNA','RNA','Protein']    	   
+--sequeceType|取值['DNA','RNA','Protein']  
 --method|method参数较为复杂，下面以单独的表格给出：
 ***************************
 |参数--method说明|取值|
@@ -49,22 +49,31 @@ Pse-in-One 2.0
 |使用acc.py，输入数据为DNA序列|['AC', 'CC', 'ACC']|  
 |使用pse.py，输入数据为蛋白质序列|['PC-PseAAC', 'PC-PseAAC-General', 'SC-PseAAC', 'SC-PseAAC-General']|   
 使用pse.py，输入数据为RNA序列|['PC-PseDNC-General', 'SC-PseDNC-General']  
-使用pse.py，输入数据为DNA序列| ['PseDNC', 'PseKNC', 'PC-PseDNC-General', 'SC-PseDNC-General', 'PC-PseTNC-General', 'SC-PseTNC-General']    
-****************************     
-   ```python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 3```
+使用pse.py，输入数据为DNA序列| ['PseDNC', 'PseKNC', 'PC-PseDNC-General', 'SC-PseDNC-General', 'PC-PseTNC-General', 'SC-PseTNC-General']
+使用sc.py，输入数据为RNA序列| ['Triplet','PseSSC','PscDPC']  
+
+备注sc.py中蛋白质和DNA序列不能使用,并且格式比较特殊，数据格式可以参考experimental_data目录中提供的样例
+
+****************************
+使用Pse-in-One进行数据处理的一些命令的样例：
+   ```
+python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 3  
+python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method Mismatch     
+python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 53   
+python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file nac.py --sequenceType Protein --method kmer --k 3  
+python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method ACC  
+python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method AC  
+python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method CC 
+python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method DAC 
+python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method DACC  
+python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method MAC  
+python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method NMBAC  
+python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file pse.py --sequenceType RNA --method PC-PseDNC-General  
+   ```
 
   
    
  
- #### 3. Example
- * test.csv是一个150维的数据集  
- * 首先选择一个降维区间（从第1个特征到第150个特征，也就是对整个特征数据集降维,当然也可以自己选择一个其他的连续的特征区间）  
- * 步长设为1  
 
-```
-python3  mrmd2.0.py  -i test.csv -o metrics.csv  -c Dimensionalized_dataset.csv  
-python3  mrmd2.0.py  -i test.arff -o metrics.csv  -c Dimensionalized_dataset.arff  
-python3  mrmd2.0.py  -i test.libsvm -o metrics.csv  -c Dimensionalized_dataset.libsvm  
-```
 
 

@@ -31,12 +31,26 @@
  用法
  * 使用pse in one 进行数据处理：
 
-   - 如果使用nac.py  
-   | 参数|取值 |  
-   | ------ | ----------- |  
-   | sequenceType|'Protein','RNA','DNA'|  
-   | method|'kmer','mismatch','subsequence'|  
-   | k|默认3 |  
+*****************************
+### 参数设置
+Pse-in-One 2.0
+|参数|说明|
+|:-|:-|  
+|--Inputfile|文件名需指定标签，如0.example.fasta代表标签为0|    
+|--FE_method_file|取值['nac.py,acc.py,pse.py,sc.py]|   
+--sequeceType|取值['DNA','RNA','Protein']    	   
+--method|method参数较为复杂，下面以单独的表格给出：
+***************************
+|参数--method说明|取值|
+|:-|:-|  
+|使用nac.py,无需指定输入数据的类型|['kmer','mismatch','subsequence']|    
+|使用acc.py，输入数据为蛋白质序列|['AC', 'CC', 'ACC']|   
+使用acc.py，输入数据为RNA序列|['DAC', 'DCC', 'DACC', 'TAC', 'TCC', 'TACC', 'MAC', 'GAC', 'NMBAC']
+|使用acc.py，输入数据为DNA序列|['AC', 'CC', 'ACC']|  
+|使用pse.py，输入数据为蛋白质序列|['PC-PseAAC', 'PC-PseAAC-General', 'SC-PseAAC', 'SC-PseAAC-General']|   
+使用pse.py，输入数据为RNA序列|['PC-PseDNC-General', 'SC-PseDNC-General']  
+使用pse.py，输入数据为DNA序列| ['PseDNC', 'PseKNC', 'PC-PseDNC-General', 'SC-PseDNC-General', 'PC-PseTNC-General', 'SC-PseTNC-General']    
+****************************     
    ```python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 3```
 
   
@@ -52,4 +66,5 @@ python3  mrmd2.0.py  -i test.csv -o metrics.csv  -c Dimensionalized_dataset.csv
 python3  mrmd2.0.py  -i test.arff -o metrics.csv  -c Dimensionalized_dataset.arff  
 python3  mrmd2.0.py  -i test.libsvm -o metrics.csv  -c Dimensionalized_dataset.libsvm  
 ```
+
 

@@ -35,7 +35,7 @@ python FMRMD2.0.py  --InputFiles 1.sc.fasta 0.sc.fasta --FE_method_file iFeature
 ```
 *****************************
 
-####Pse-in-One 2.0
+#### Pse-in-One 2.0
 |参数|说明|
 |:-|:-|  
 |--Inputfile|文件名需指定标签，如0.example.fasta代表标签为0|    

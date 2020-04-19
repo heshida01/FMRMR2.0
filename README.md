@@ -51,8 +51,8 @@ When using the acc.py method and the input data is the RNA sequence|['DAC', 'DCC
 |When using the acc.py method and the input data is the DNA sequence|['AC', 'CC', 'ACC']|  
 |When using the pse.py method and the input data is the protein sequence|['PC-PseAAC', 'PC-PseAAC-General', 'SC-PseAAC', 'SC-PseAAC-General']|   
 When using the pse.py method and the input data is the RNA sequence|['PC-PseDNC-General', 'SC-PseDNC-General']  
-When using the pse.py method and the input data is the DNA sequence ['PseDNC', 'PseKNC', 'PC-PseDNC-General', 'SC-PseDNC-General', 'PC-PseTNC-General', 'SC-PseTNC-General']
-When using the sc.py method and the input data is the RNAsequence| ['Triplet','PseSSC','PscDPC']  
+When using the pse.py method and the input data is the DNA sequence| ['PseDNC', 'PseKNC', 'PC-PseDNC-General', 'SC-PseDNC-General', 'PC-PseTNC-General', 'SC-PseTNC-General']
+When using the sc.py method and the input data is the RNA sequence| ['Triplet','PseSSC','PscDPC']  
 
 Note: that protein and DNA sequences in sc.py cannot be used and are in a special format. The data format can refer to the samples provided in the experimental_data directory
 

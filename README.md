@@ -21,11 +21,11 @@ We recommend using [miniconda3.4.3](https://repo.anaconda.com/miniconda/)(or pyt
 
 when parameter "type" uses iFeature.py and takes the value of   ['AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC'],some example command as shown below：
 ```
-python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method_file iFeature.py --type AAC   
-python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method_file iFeature.py --type CKSAAP  
-python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type CTDC   
-python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type DPC  
-python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type DDE  
+python fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method_file iFeature.py --type AAC   
+python fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method_file iFeature.py --type CKSAAP  
+python fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type CTDC   
+python fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type DPC  
+python fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type DDE  
 ```
 
 when parameter "type" uses iFeature.py and takes the value of ['type1', 'type2', 'type3A', 'type3B', 'type4', 'type5', 'type6A', 'type6B', 'type6C', 'type7', 'type8', 'type9', 'type10', 'type11', 'type12', 'type13', 'type14', 'type15','type16'],some example command as shown below：
@@ -59,18 +59,18 @@ Note: that protein and DNA sequences in sc.py cannot be used and are in a specia
 ****************************
 Examples of commands that use Pse-in-One for data processing:
    ```
-python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 3  
-python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method Mismatch     
-python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 53   
-python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file nac.py --sequenceType Protein --method kmer --k 3  
-python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method ACC  
-python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method AC  
-python Fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method CC 
-python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method DAC 
-python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method DACC  
-python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method MAC  
-python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method NMBAC  
-python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file pse.py --sequenceType RNA --method PC-PseDNC-General  
+python fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 3  
+python fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method Mismatch     
+python fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 53   
+python fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file nac.py --sequenceType Protein --method kmer --k 3  
+python fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method ACC  
+python fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method AC  
+python fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file acc.py --sequenceType Protein --method CC 
+python fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method DAC 
+python fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method DACC  
+python fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method MAC  
+python fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py --sequenceType RNA --method NMBAC  
+python fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file pse.py --sequenceType RNA --method PC-PseDNC-General  
    ```
 
 

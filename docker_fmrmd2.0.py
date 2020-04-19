@@ -23,7 +23,7 @@ if __name__ == "__main__":
      -v  {current_path}{os.sep}Logs:/Logs:rw  \
      -v {current_path}{os.sep}fmrmd2.0.py:/fmrmd2.0.py \
      {' '.join(intputfile_v)} \
-     --rm -it  heshida/mrmd2.0:latest python Fmrmd2.0.py \
+     --rm -it  heshida/mrmd2.0:latest python fmrmd2.0.py \
      --InputFiles  {' '.join(args.InputFiles)} --FE_method_file {args.FE_method_file} --type {args.type} "
     print(cmd)
     procExe = subprocess.Popen(cmd.split(), universal_newlines=True, stdout=subprocess.PIPE,stderr=subprocess.PIPE)

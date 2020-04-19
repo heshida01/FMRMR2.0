@@ -1,18 +1,18 @@
 ## [mrmd2.0.py](http://lab.malab.cn:5001/MRMD2.0/Home)
  
 #### 1. Installation：
-We recommend using python3.6(support linux,windows).  
+We recommend using [miniconda3.4.3](https://repo.anaconda.com/miniconda/)(or python3.6), support linux,windows.  
 
 
   ```
-  pip3 install -r requirements.txt 
+  pip3 install -r requirements.txt --ignore-installed
   ```  
 
   ##### note:
   If the installation of a Windows user's mine package fails, download the corresponding version of the WHL file from [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/) to install it.
   
  #### 2. usage
- 下面给出一些重要参数的使用说明，如需更多的参数设置可以参考iFeature和Pse-in-One2.0作者的文档，本程序的参数名字和原程序的名字基本一致。
+ Some important parameters are given below. For more parameter Settings, please refer to the relevant documents of [iFeature](https://github.com/Superzchen/iFeature) and [pse-in-one2.0](https://github.com/banshanren/Pse-in-One-2.0) authors. The parameter name of this program is basically the same as the name of the original program.
 #### iFeature
 |参数|取值|
 |:-|:-|  

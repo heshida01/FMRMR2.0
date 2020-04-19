@@ -21,7 +21,7 @@ if __name__ == "__main__":
     cmd = f" sudo docker container run \
      -v {current_path}{os.sep}Results:/Results:rw \
      -v  {current_path}{os.sep}Logs:/Logs:rw  \
-     -v {current_path}{os.sep}Fmrmd2.0.py:/Fmrmd2.0.py \
+     -v {current_path}{os.sep}fmrmd2.0.py:/fmrmd2.0.py \
      {' '.join(intputfile_v)} \
      --rm -it  heshida/mrmd2.0:latest python Fmrmd2.0.py \
      --InputFiles  {' '.join(args.InputFiles)} --FE_method_file {args.FE_method_file} --type {args.type} "

@@ -21,11 +21,11 @@ We recommend using [miniconda3.4.3](https://repo.anaconda.com/miniconda/)(or pyt
 
 when parameter "type" uses iFeature.py and takes the value of   ['AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC'],some example command as shown below：
 ```
-python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method iFeature.py --type AAC   
-python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method iFeature.py --type CKSAAP  
-python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py --type CTDC   
-python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py --type DPC  
-python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py --type DDE  
+python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method_file iFeature.py --type AAC   
+python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method_file iFeature.py --type CKSAAP  
+python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type CTDC   
+python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type DPC  
+python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type DDE  
 ```
 
 when parameter "type" uses iFeature.py and takes the value of ['type1', 'type2', 'type3A', 'type3B', 'type4', 'type5', 'type6A', 'type6B', 'type6C', 'type7', 'type8', 'type9', 'type10', 'type11', 'type12', 'type13', 'type14', 'type15','type16'],some example command as shown below：

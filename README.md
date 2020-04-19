@@ -12,14 +12,14 @@ We recommend using [miniconda3.4.3](https://repo.anaconda.com/miniconda/)(or pyt
   If the installation of a Windows user's mine package fails, download the corresponding version of the WHL file from [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/) to install it.
   
  #### 2. usage
- Some important parameters are given below. For more parameter Settings, please refer to the relevant documents of [iFeature](https://github.com/Superzchen/iFeature) and [pse-in-one2.0](https://github.com/banshanren/Pse-in-One-2.0) authors. The parameter name of this program is basically the same as the name of the original program.
+ when paramete "type" uses iFeature.py and takes the value of[iFeature](https://github.com/Superzchen/iFeature) and [pse-in-one2.0](https://github.com/banshanren/Pse-in-One-2.0) authors. The parameter name of this program is basically the same as the name of the original program.
 #### iFeature
-|参数|取值|
+|parameters|values|
 |:-|:-|  
-|--Inputfile|文件名需指定标签，如0.example.fasta代表标签为0|    
+|--Inputfile|The file name needs to specify a label, such as "0.example.fasta" to mean that the label is 0|    
 |--FE_method_file|['iFeature.py','iFeaturePseKRAAC.py']|   
 
-当type(使用iFeature.py)且取值['AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC']时进行数据处理的一些命令的样例：
+when parameter "type" uses iFeature.py and takes the value of   ['AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC'],some example command as shown below：
 ```
 python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method iFeature.py --type AAC   
 python Fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method iFeature.py --type CKSAAP  
@@ -28,7 +28,7 @@ python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py 
 python Fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method iFeature.py --type DDE  
 ```
 
-当type(使用iFeaturePseKRAAC.py)且取值['type1', 'type2', 'type3A', 'type3B', 'type4', 'type5', 'type6A', 'type6B', 'type6C', 'type7', 'type8', 'type9', 'type10', 'type11', 'type12', 'type13', 'type14', 'type15','type16']时进行数据处理的命令的样例：
+when parameter "type" uses iFeature.py and takes the value of['type1', 'type2', 'type3A', 'type3B', 'type4', 'type5', 'type6A', 'type6B', 'type6C', 'type7', 'type8', 'type9', 'type10', 'type11', 'type12', 'type13', 'type14', 'type15','type16'],some example command as shown below：
 
 ```
 python FMRMD2.0.py  --InputFiles 1.sc.fasta 0.sc.fasta --FE_method_file iFeaturePseKRAAC.py --type type1 --subtype lambda-correlation --gap_lambda 2 --raactype 5
@@ -36,28 +36,28 @@ python FMRMD2.0.py  --InputFiles 1.sc.fasta 0.sc.fasta --FE_method_file iFeature
 *****************************
 
 #### Pse-in-One 2.0
-|参数|说明|
+|parameters|values|
 |:-|:-|  
-|--Inputfile|文件名需指定标签，如0.example.fasta代表标签为0|    
-|--FE_method_file|取值['nac.py,acc.py,pse.py,sc.py]|   
---sequeceType|取值['DNA','RNA','Protein']  
---method|method参数较为复杂，下面以单独的表格给出：
+|--Inputfile|The file name needs to specify a label, such as "0.example.fasta" to mean that the label is |    
+|--FE_method_file|['nac.py,acc.py,pse.py,sc.py]|   
+--sequeceType|['DNA','RNA','Protein']  
+--method|The parameters are more complex and are given in a separate table below：
 ***************************
-|参数--method说明|取值|
+|--method description|values|
 |:-|:-|  
-|使用nac.py,无需指定输入数据的类型|['kmer','mismatch','subsequence']|    
-|使用acc.py，输入数据为蛋白质序列|['AC', 'CC', 'ACC']|   
-使用acc.py，输入数据为RNA序列|['DAC', 'DCC', 'DACC', 'TAC', 'TCC', 'TACC', 'MAC', 'GAC', 'NMBAC']
-|使用acc.py，输入数据为DNA序列|['AC', 'CC', 'ACC']|  
-|使用pse.py，输入数据为蛋白质序列|['PC-PseAAC', 'PC-PseAAC-General', 'SC-PseAAC', 'SC-PseAAC-General']|   
-使用pse.py，输入数据为RNA序列|['PC-PseDNC-General', 'SC-PseDNC-General']  
-使用pse.py，输入数据为DNA序列| ['PseDNC', 'PseKNC', 'PC-PseDNC-General', 'SC-PseDNC-General', 'PC-PseTNC-General', 'SC-PseTNC-General']
-使用sc.py，输入数据为RNA序列| ['Triplet','PseSSC','PscDPC']  
+|There is no need to specify the type of input data when using the "nac.py" method|['kmer','mismatch','subsequence']|    
+|When using the acc.py method and the input data is the protein sequence|['AC', 'CC', 'ACC']|   
+When using the acc.py method and the input data is the RNA sequence|['DAC', 'DCC', 'DACC', 'TAC', 'TCC', 'TACC', 'MAC', 'GAC', 'NMBAC']
+|When using the acc.py method and the input data is the DNA sequence|['AC', 'CC', 'ACC']|  
+|When using the pse.py method and the input data is the protein sequence|['PC-PseAAC', 'PC-PseAAC-General', 'SC-PseAAC', 'SC-PseAAC-General']|   
+When using the pse.py method and the input data is the RNA sequence|['PC-PseDNC-General', 'SC-PseDNC-General']  
+When using the pse.py method and the input data is the DNA sequence ['PseDNC', 'PseKNC', 'PC-PseDNC-General', 'SC-PseDNC-General', 'PC-PseTNC-General', 'SC-PseTNC-General']
+When using the sc.py method and the input data is the RNAsequence| ['Triplet','PseSSC','PscDPC']  
 
-备注sc.py中蛋白质和DNA序列不能使用,并且格式比较特殊，数据格式可以参考experimental_data目录中提供的样例
+Note: that protein and DNA sequences in sc.py cannot be used and are in a special format. The data format can refer to the samples provided in the experimental_data directory
 
 ****************************
-使用Pse-in-One进行数据处理的一些命令的样例：
+Examples of commands that use Pse-in-One for data processing:
    ```
 python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method kmer --k 3  
 python Fmrmd2.0.py --InputFiles 1.example.txt 0.example.txt --FE_method_file nac.py --sequenceType RNA --method Mismatch     

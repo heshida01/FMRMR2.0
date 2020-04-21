@@ -1,7 +1,7 @@
 ## [mrmd2.0.py](http://lab.malab.cn:5001/MRMD2.0/Home)
  
 #### 1. Installation：
-We recommend using [miniconda3.4.3](https://repo.anaconda.com/miniconda/)(or python3.6), support linux,windows.  
+We recommend using [miniconda3-4.3.31](https://repo.anaconda.com/miniconda/)(or python3.6), support linux,windows.  
 
 
   ```
@@ -21,7 +21,7 @@ We recommend using [miniconda3.4.3](https://repo.anaconda.com/miniconda/)(or pyt
 
 when parameter "type" uses iFeature.py and takes the value of   ['AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC'],some example command as shown below：
 ```
-python fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method_file iFeature.py --type AAC   
+python fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file iFeature.py --type AAC   
 python fmrmd2.0.py --InputFiles 1.positive.txt 0.negative.txt --FE_method_file iFeature.py --type CKSAAP  
 python fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type CTDC   
 python fmrmd2.0.py --InputFiles 1.pos.fasta 0.neg.fasta --FE_method_file iFeature.py --type DPC  

@@ -74,9 +74,7 @@ if __name__ == '__main__':
         mrmdcmd3 = f"python  mrmd2.0.py  -i {csvfilepath} -o {metricfile}  -c {rdfile} {str_parameters}"
 
         print(mrmdcmd3)
-        # sp3 = subprocess.Popen(mrmdcmd3.split(), universal_newlines=True, stdout=subprocess.PIPE)
-        # sp3.communicate()
-        print('+++',csvfilepath,'+++')
+        
 
         mrmd2main(args_i=csvfilepath,args_o=metricfile,args_c=rdfile,args_t=args.t,args_l=args.step_length,args_m=args.m_topFeatures,args_s=1,args_e=-1)
 

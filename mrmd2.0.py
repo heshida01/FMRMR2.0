@@ -291,6 +291,124 @@ def tsne_scatter(file):
 
     plt.legend(loc="upper right", fontsize="x-small")
 
+def main(args_i,args_s=1,args_e=-1,args_l=1,args_m=-1,args_t='f1',args_c='',args_o_=''):
+
+
+
+
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+
+    log_path = os.getcwd() + os.sep + 'Logs' + os.sep
+    rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
+    log_name = log_path + rq + '.log'
+    logfile = log_name
+    fh = logging.FileHandler(logfile, mode='w')
+    fh.setLevel(logging.INFO)
+
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.INFO)
+
+    # logging.basicConfig(level=logging.INFO,
+    #                     format='[%(asctime)s]: %(message)s')  # logging.basicConfig函数对日志的输出格式及方式做相关配置
+    formatter = logging.Formatter('[%(asctime)s]: %(message)s')
+    # 文件
+    fh.setFormatter(formatter)
+    logger.addHandler(fh)
+    # 控制台
+    ch.setFormatter(formatter)
+    logger.addHandler(ch)
+    logger.info("---mrmd 2.0 start----")
+
+    args = parse_args()
+
+    args.i, args.s,args.e,args.l,args.m,args.t,args.c,args.o = \
+        args_i, args_s , args_e , args_l , args_m , args_t , args_c , args_o_
+
+
+
+
+
+    file = args.i
+    file_type = file.split('.')[-1]
+    if file_type == 'csv':
+        pass
+    elif file_type == 'arff':
+        file = arff2csv(file)
+    elif file_type == 'libsvm':
+
+        file = libsvm2csv(file)
+    else:
+        assert "format error"
+    # format : arff or libsvm to csv
+    plt.figure(figsize=(2 * 4.7, 1 * 4.7))
+    plt.subplot(1, 2, 1)
+    tsne_scatter(file)
+
+    if int(args.e) == -1:
+        args.e = len(pd.read_csv(file, engine='python').columns) - 1
+
+    global args_o
+    if args.o == None:
+        args.o = ''.join(args.i.split('.')[:-1]) + '.metrics.csv'
+    args_o = args.o
+
+    d = Dim_Rd(file, logger)
+    d.run(inputfile=file)
+    outputfile = os.getcwd() + os.sep + 'Results' + os.sep + os.path.basename(args_o)
+    csvfile = os.getcwd() + os.sep + 'Results' + os.sep + os.path.basename(args.c)
+    logger.info("The output by the terminal's log has been saved in the {}.".format(logfile))
+    logger.info('metrics have been saved in the {}.'.format(outputfile))
+
+    plt.subplot(1, 2, 2)
+    tsne_scatter(csvfile)
+
+    pngpath = os.path.abspath('./Results') + os.sep + os.path.basename(args.i) + '.png'
+    plt.savefig(pngpath)
+    logger.info('Scatter charts visualized by t-SNE dataset has been saved in the {}.'.format(pngpath))
+
+    # 处理输出文件的类型
+    outputfile_file_type = args.c.split('.')[-1]
+    if outputfile_file_type == 'csv':
+        logger.info('Reduced dimensional dataset has been saved in the {}.'.format(csvfile))
+
+    elif outputfile_file_type == 'arff':
+        df = pd.read_csv(csvfile, engine='python')
+        filename, ext = os.path.splitext(args.i)
+
+        if df['class'].dtype == np.float:
+            df['class'] = df['class'].astype(int)
+        temp = df['class']
+        df = df.drop(columns=['class'], axis=1)
+        df['class'] = temp
+        DimensionReduction_filename = os.path.abspath('./Results') + os.sep + args.c
+        pandas2arff.pandas2arff(df, filename=r'./Results/{}'.format(args.c), wekaname=filename,
+                                cleanstringdata=False,
+                                cleannan=True)
+
+        logger.info('Reduced dimensional dataset has been saved in the {}.'.format(DimensionReduction_filename))
+        # clean_csv(csvfile)
+
+    elif outputfile_file_type == 'libsvm':
+        df = pd.read_csv(csvfile, engine='python')
+        for x in df.columns:
+            if x.lower() == 'class':
+                label = x
+                break
+        y = df[label]
+        X = df.drop(columns=label, axis=1)
+
+        inputfile = args.i
+        # filename ,ext = os.path.splitext(inputfile)
+        DimensionReduction_filename = os.path.abspath('./Results') + os.sep + args.c
+        dump_svmlight_file(X, y, DimensionReduction_filename, zero_based=True, multilabel=False)
+        # clean_tmpfile.clean_csv(csvfile)
+        logger.info('Reduced dimensional dataset has been saved in the {}.'.format(DimensionReduction_filename))
+    else:
+        logger.info('Reduced dimensional dataset has been saved in the {}.'.format(csvfile))
+
+    logger.info("---mrmd 2.0 end---")
+
 
 if __name__ == '__main__':
 

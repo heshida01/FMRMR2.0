@@ -175,8 +175,8 @@ def parse_args():
     # ktuple  gap_lambda    raactype  int:type
     ####mrmd2.0###############
 
-    parser.add_argument("--step_length",  type=str, default='', help="step length default=1" )
-    parser.add_argument("--m_topFeatures", type=str, default='', help="mrmd2.0 features top n default=auto")
+    parser.add_argument("--step_length",  type=str, default='1', help="step length default=1" )
+    parser.add_argument("--m_topFeatures", type=str, default='-1', help="mrmd2.0 features top n default=auto")
     parser.add_argument("--t", type=str, default='', help="metric basline default=f1" )
 
     args = parser.parse_args()

@@ -16,4 +16,4 @@ PyYAML==5.1.2 \
 matplotlib==3.2.1 \
 biopython==1.76
 
-COPY * /
+COPY . /

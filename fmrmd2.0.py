@@ -7,6 +7,7 @@ from fmrmd_parse_args import parse_args
 sys.path.extend('./format')
 sys.path.extend('.')
 
+from mrmd2 import  main as mrmd2main
 from format import pos_neg2csv
 
 
@@ -66,16 +67,18 @@ if __name__ == '__main__':
 
         metricfile = combine_file.strip("fasta")+'metrics.csv'
         rdfile = combine_file.strip("fasta")+'result.csv'
-        mrmd2_parameters = {"l": args.step_length, "m": args.m_topFeatures, "t": args.m}
+        mrmd2_parameters = {"l": args.step_length, "m": args.m_topFeatures, "t": args.t}
         notNull_parameters = ['-' + key + ' ' + mrmd2_parameters[key] for key in mrmd2_parameters if
                               mrmd2_parameters[key] != '']
         str_parameters = ' '.join(notNull_parameters)
         mrmdcmd3 = f"python  mrmd2.0.py  -i {csvfilepath} -o {metricfile}  -c {rdfile} {str_parameters}"
 
         print(mrmdcmd3)
-        sp3 = subprocess.Popen(mrmdcmd3.split(), universal_newlines=True, stdout=subprocess.PIPE)
-        sp3.communicate()
+        # sp3 = subprocess.Popen(mrmdcmd3.split(), universal_newlines=True, stdout=subprocess.PIPE)
+        # sp3.communicate()
+        print('+++',csvfilepath,'+++')
 
+        mrmd2main(args_i=csvfilepath,args_o=metricfile,args_c=rdfile,args_t=args.t,args_l=args.step_length,args_m=args.m_topFeatures,args_s=1,args_e=-1)
 
 
 
@@ -130,14 +133,10 @@ if __name__ == '__main__':
         mrmd2_parameters = {"l": args.step_length, "m": args.m_topFeatures, "t": args.m}
         notNull_parameters = ['-' + key + ' ' + mrmd2_parameters[key] for key in mrmd2_parameters if
                               mrmd2_parameters[key] != '']
-        str_parameters = ' '.join(notNull_parameters)
 
-        mrmdcmd3 = f"python  mrmd2.0.py  -i {inputcsv} -o {metricfile}  -c {rdfile} {str_parameters}"
-        print(mrmdcmd3)
-        sp3 = subprocess.Popen(mrmdcmd3.split(), universal_newlines=True, stdout=subprocess.PIPE)
-        sp3.communicate()
+        mrmd2main(args_i=inputcsv, args_o=metricfile, args_c=rdfile, args_t=args.t, args_l=args.step_length,
+                  args_m=args.m_topFeatures, args_s=1, args_e=-1)
 
-    print('exit')
 
     
 

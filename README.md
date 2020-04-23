@@ -1,5 +1,5 @@
 ## [mrmd2.0.py](http://lab.malab.cn:5001/MRMD2.0/Home)
-
+[Chinese version](https://github.com/heshida01/FMRMD2.0/blob/master/README_CN.md)
 
 #### 1. Installation：
 We recommend using [miniconda3-4.3.31](https://repo.anaconda.com/miniconda/)(or python3.6), support linux,windows.  

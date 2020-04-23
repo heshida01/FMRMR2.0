@@ -1,4 +1,4 @@
-## [mrmd2.0.py](http://lab.malab.cn:5001/MRMD2.0/Home)
+## FMRMD2.0
  
 #### 1. 安装：
 推荐[miniconda3-4.3.31](https://repo.anaconda.com/miniconda/)(或者 python3.6), 支持 linux,windows.  

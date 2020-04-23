@@ -69,7 +69,21 @@ python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file acc.py 
 python Fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file pse.py --sequenceType RNA --method PC-PseDNC-General  
    ```
 
-  
+## Docker version
+The fmrmd2.0 environment can now be deployed with docker.  
+ [Docker installation reference1](https://www.docker.com/products/docker-desktop)  ,   [Docker installation reference2](https://github.com/komavideo/LearnDocker/tree/master/Lesson02)  
+ ##### pull the image
+  ```
+  git clone https://github.com/heshida01/FMRMD2.0.git  
+  cd FMRMD2.0  
+  sudo docker pull heshida/fmrmd2.0:latest
+  ```  
+##### usage:  
+用法和上面的基本类似, 只需要将 'fmrmd2.0.py' 替换为 'docker_fmrmd2.0.py'.(使用docker可能需要超级用户权限)  
+  ```
+  sudo python3 docker_fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file iFeature.py --type AAC   
+  ```
+结果请在Results查找。
    
  
 

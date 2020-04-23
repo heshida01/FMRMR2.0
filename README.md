@@ -1,5 +1,6 @@
 ## [mrmd2.0.py](http://lab.malab.cn:5001/MRMD2.0/Home)
- 
+
+
 #### 1. Installation：
 We recommend using [miniconda3-4.3.31](https://repo.anaconda.com/miniconda/)(or python3.6), support linux,windows.  
 
@@ -75,3 +76,20 @@ python fmrmd2.0.py --InputFiles 1.rna.fasta 0.rna.fasta --FE_method_file pse.py 
 
 
 If you have any questions.please contact me (heshida@tju.edu.cn)
+
+## Docker version
+The fmrmd2.0 environment can now be deployed with docker.  
+ [Docker installation reference1](https://www.docker.com/products/docker-desktop)  ,   [Docker installation reference2](https://github.com/komavideo/LearnDocker/tree/master/Lesson02)  
+ ##### pull the image
+  ```
+  git clone https://github.com/heshida01/FMRMD2.0.git  
+  cd FMRMD2.0  
+  sudo docker pull heshida/fmrmd2.0:latest
+  ```  
+##### usage:  
+The usage is roughly the same as above, just replace 'fmrmd2.0.py' with 'docker_fmrmd2.0.py'.(Superuser permissions are required to make use of docker)  
+  ```Superuser permissions are required to make use of docker
+  sudo python3 docker_fmrmd2.0.py --InputFiles 1.example.fasta 0.example.fasta --FE_method_file iFeature.py --type AAC   
+  ```
+  Please find the results in 'Results' folder
+

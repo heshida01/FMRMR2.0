@@ -17,7 +17,7 @@ We recommend using [miniconda3-4.3.31](https://repo.anaconda.com/miniconda/)(or 
 #### iFeature
 |parameters|values|
 |:-|:-|  
-|--Inputfile|The file name needs to specify a label, such as "0.example.fasta" to mean that the label is 0|    
+|--InputFiles|The file name needs to specify a label, such as "0.example.fasta" to mean that the label is 0|    
 |--FE_method_file|['iFeature.py','iFeaturePseKRAAC.py']|   
 
 when parameter "type" uses iFeature.py and takes the value of   ['AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC'],some example command as shown below：

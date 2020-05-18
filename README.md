@@ -1,4 +1,4 @@
-## [mrmd2.0.py](http://lab.malab.cn:5001/MRMD2.0/Home)
+## [fmrmd2.0](http://lab.malab.cn/soft/FMRMD2.0/index_en.html)
 [Chinese version](https://github.com/heshida01/FMRMD2.0/blob/master/README_CN.md)
 
 #### 1. Installation：
@@ -15,10 +15,7 @@ We recommend using [miniconda3-4.3.31](https://repo.anaconda.com/miniconda/)(or 
  #### 2. usage
  when paramete "type" uses iFeature.py and takes the value of [iFeature](https://github.com/Superzchen/iFeature) and [pse-in-one2.0](https://github.com/banshanren/Pse-in-One-2.0) authors. The parameter name of this program is basically the same as the name of the original program.
 #### iFeature
-|parameters|values|
-|:-|:-|  
-|--InputFiles|The file name needs to specify a label, such as "0.example.fasta" to mean that the label is 0|    
-|--FE_method_file|['iFeature.py','iFeaturePseKRAAC.py']|   
+ 
 
 when parameter "type" uses iFeature.py and takes the value of   ['AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC'],some example command as shown below：
 ```
